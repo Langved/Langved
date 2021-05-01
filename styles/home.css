@@ -1,0 +1,212 @@
+@import url("https://fonts.googleapis.com/css2?family=Kanit&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Kanit&family=Poppins&display=swap");
+
+.body {
+  width: 1440px;
+  height: 9402px;
+  background-color: #ffffff;
+}
+
+/* .Blue bg {
+  width: 1440px;
+  height: 878px;
+  margin: 0 0 374px;
+  padding: 0 0 388px;
+  background-color: #e8ffff;
+} */
+.Rectangle {
+  width: 1440px;
+  height: 878px;
+  margin: 0 0 85px;
+  padding: 35px 35px;
+  background-color: #e8ffff;
+  /* position: absolute;
+  z-index: -1;*/
+}
+
+.logo {
+  width: 215px;
+  height: 67px;
+  margin: 0 62px 0 0;
+}
+
+.home {
+  width: 45px;
+  height: 24px;
+  margin: 0 70px 0 0;
+  font-family: Kanit;
+  font-size: 16px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 0.57px;
+  color: #001436;
+}
+
+.TheLanguageZone {
+  width: 152px;
+  height: 24px;
+  margin: 0 70px;
+  font-family: Kanit;
+  font-size: 16px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 0.57px;
+  color: #001436;
+}
+
+.Events-Activities {
+  width: 146px;
+  height: 24px;
+  margin: 0 70px;
+  font-family: Kanit;
+  font-size: 16px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 0.57px;
+  color: #001436;
+}
+
+.About-Us {
+  width: 72px;
+  height: 24px;
+  margin: 0 0 0 70px;
+  font-family: Kanit;
+  font-size: 16px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 0.57px;
+  color: #001436;
+}
+
+.BG {
+  width: 180px;
+  height: 40px;
+  margin: 14px 0 13px 73px;
+  padding: 10px 47px 9px 48px;
+  border-radius: 20px;
+  border: solid 2px #ffffff;
+  background-color: #000421;
+}
+.Text {
+  width: 85px;
+  height: 21px;
+  font-family: Kanit;
+  font-size: 14px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 0.5px;
+  text-align: center;
+  color: #ffffff;
+}
+a {
+  text-decoration: none;
+}
+
+.header {
+  margin-top: 130px;
+  width: 1156px;
+  height: 166px;
+  margin: 85px 142px 25px;
+  font-family: Kanit;
+  font-size: 68px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.22;
+  letter-spacing: 2.43px;
+  text-align: center;
+  color: #001436;
+}
+.message {
+  width: 1156px;
+  height: 84px;
+  margin: 25px 142px 0;
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 2.63;
+  letter-spacing: 0.57px;
+  text-align: center;
+  color: #000000;
+}
+.img_hero {
+  width: 960px;
+  height: 682px;
+  margin: 34px 240px;
+  object-fit: contain;
+}
+
+.small-text {
+  width: 245px;
+  height: 42px;
+  margin: auto;
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 2.63;
+  letter-spacing: 4.47px;
+  text-align: center;
+  color: #bcbcbc;
+}
+.bubble {
+  margin: 10px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+.thought-bubbles {
+  display: flex;
+  flex-direction: row;
+  margin: auto;
+  justify-content: center;
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+}
+.bubble_img {
+  padding: 10px;
+  margin: 10px;
+}
+
+.img_bubble_German {
+  width: 68px;
+  height: 72px;
+  margin: 0 1px;
+  object-fit: contain;
+}
+.img_bubble_Spanish {
+  width: 68px;
+  height: 72px;
+  margin: 0 1px;
+  object-fit: contain;
+}
+.img_bubble_French {
+  width: 68px;
+  height: 72px;
+  margin: 0 1px;
+  object-fit: contain;
+}
+.img_bubble_English {
+  width: 68px;
+  height: 72px;
+  margin: 0 1px;
+  object-fit: contain;
+}
