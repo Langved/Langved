@@ -1,39 +1,74 @@
 @import url("https://fonts.googleapis.com/css2?family=Kanit&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Kanit&family=Poppins&display=swap");
 
+*
+{
+    margin: 0;
+    padding: 0;
+    /* border: solid red 2px; */
+}
+
+html {
+    box-sizing: border-box;
+}
+
+
 .body {
-  width: 1440px;
-  height: 9402px;
   background-color: #ffffff;
 }
 
-/* .Blue bg {
-  width: 1440px;
-  height: 878px;
-  margin: 0 0 374px;
-  padding: 0 0 388px;
+.head
+{
+  height: 100vh;
+  width: 100%;
+  padding-top: 35px;
   background-color: #e8ffff;
-} */
-.Rectangle {
-  width: 1440px;
-  height: 878px;
-  margin: 0 0 85px;
-  padding: 35px 35px;
-  background-color: #e8ffff;
-  /* position: absolute;
-  z-index: -1;*/
+  position: absolute;
+  z-index: 1;
+}
+
+
+.content
+{
+    position: relative;
+    /* margin-top: 50vh; */
+    top: 65vh;
+    width: 80vw;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    z-index: 2;
+}
+
+.nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  /* align-content: center; */
+  width: 80vw;
+  margin: auto;
+}
+
+.nav-item
+{
+    height: 40px;
+    padding: 0.75em;
+    padding-left: 1.5em;
+    padding-right: 1.5em;
+    cursor: pointer;
+    z-index: 1;
 }
 
 .logo {
-  width: 215px;
-  height: 67px;
-  margin: 0 62px 0 0;
+  width: 186px;
+  height: 48px;
+  /* margin: 0 62px 0 0; */
 }
 
 .home {
-  width: 45px;
+  /* width: 45px; */
   height: 24px;
-  margin: 0 70px 0 0;
+  /* margin: 0 70px 0 0; */
   font-family: Kanit;
   font-size: 16px;
   font-weight: 500;
@@ -45,9 +80,9 @@
 }
 
 .TheLanguageZone {
-  width: 152px;
+  /* width: 152px; */
   height: 24px;
-  margin: 0 70px;
+  /* margin: 0 70px; */
   font-family: Kanit;
   font-size: 16px;
   font-weight: 500;
@@ -59,9 +94,9 @@
 }
 
 .Events-Activities {
-  width: 146px;
+  /* width: 146px; */
   height: 24px;
-  margin: 0 70px;
+  /* margin: 0 70px; */
   font-family: Kanit;
   font-size: 16px;
   font-weight: 500;
@@ -73,9 +108,9 @@
 }
 
 .About-Us {
-  width: 72px;
+  /* width: 72px; */
   height: 24px;
-  margin: 0 0 0 70px;
+  /* margin: 0 0 0 70px; */
   font-family: Kanit;
   font-size: 16px;
   font-weight: 500;
@@ -87,16 +122,19 @@
 }
 
 .BG {
-  width: 180px;
+  /* width: 180px; */
   height: 40px;
-  margin: 14px 0 13px 73px;
-  padding: 10px 47px 9px 48px;
-  border-radius: 20px;
+  /* margin: 14px 0 13px 73px; */
+  padding: 0.75em;
+  padding-left: 1.5em;
+  padding-right: 1.5em;
+  border-radius: 2em;
+
   border: solid 2px #ffffff;
   background-color: #000421;
 }
 .Text {
-  width: 85px;
+  /* width: 85px; */
   height: 21px;
   font-family: Kanit;
   font-size: 14px;
@@ -108,17 +146,20 @@
   text-align: center;
   color: #ffffff;
 }
+
+
 a {
   text-decoration: none;
 }
 
-.header {
-  margin-top: 130px;
-  width: 1156px;
-  height: 166px;
-  margin: 85px 142px 25px;
+.bold-message {
+  /* margin-top: 130px; */
+  width: 70vw;
+  height: 25vh;
+  margin: auto;
+  margin-top: 1em;
   font-family: Kanit;
-  font-size: 68px;
+  font-size: 60px;
   font-weight: 500;
   font-stretch: normal;
   font-style: normal;
@@ -127,29 +168,63 @@ a {
   text-align: center;
   color: #001436;
 }
+
+
+
+
 .message {
-  width: 1156px;
-  height: 84px;
-  margin: 25px 142px 0;
+  width: 80vw;
+  /* height: 84px; */
+  margin: auto;
+  margin-top: 0.75em;
+  padding: 0.75em;
   font-family: Poppins;
   font-size: 16px;
   font-weight: normal;
   font-stretch: normal;
   font-style: normal;
   line-height: 2.63;
-  letter-spacing: 0.57px;
+  /* letter-spacing: 0.57px; */
   text-align: center;
   color: #000000;
 }
-.img_hero {
-  width: 960px;
-  height: 682px;
-  margin: 34px 240px;
-  object-fit: contain;
+
+
+
+.image_container
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* border: solid blue 2px; */
 }
 
+.img_hero {
+    margin: auto;
+    width: 70%;
+    height: 70%;
+}
+
+
+
+.languages_container
+{
+    margin: auto;
+    margin-top: 2em;
+    display: flex;
+    flex-direction: column;
+
+}
+
+
+
+
+
+
+
+
 .small-text {
-  width: 245px;
+  /* width: 245px; */
   height: 42px;
   margin: auto;
   font-family: Poppins;
