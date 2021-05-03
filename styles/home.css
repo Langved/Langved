@@ -29,14 +29,27 @@ a {
   z-index: 1;
 }
 
+
+.content
+{
+	position: relative;
+	top: 65vh;
+	display: flex;
+	flex-direction: column;
+	margin: auto;
+	z-index: 2;
+
+
+}
+
+
+
+
 .content-top {
-  position: relative;
-  top: 65vh;
-  width: 80vw;
-  display: flex;
-  flex-direction: column;
-  margin: auto;
-  z-index: 2;
+	width: 80vw;
+	display: flex;
+	flex-direction: column;
+	margin: auto;
 }
 
 .nav {
@@ -48,12 +61,13 @@ a {
 }
 
 .nav-item {
-  height: 40px;
-  padding: 0.75em;
+  /* height: 40px; */
+  /* width: 10em; */
+  /* padding: 0.75em; */
   padding-left: 1.5em;
   padding-right: 1.5em;
-  margin-right: 1em;
-  margin-left: 1em;
+  margin-right: 0.5em;
+  margin-left: 0.5em;
   cursor: pointer;
   z-index: 1;
   font-family: Kanit;
@@ -62,7 +76,8 @@ a {
   font-stretch: normal;
   font-style: normal;
   line-height: normal;
-  letter-spacing: 0.57px;
+  align-self: center;
+  /* letter-spacing: 0.57px; */
   color: #001436;
 }
 
@@ -253,19 +268,27 @@ a {
   display: flex;
   flex-direction: column;
   justify-content: left;
+  width: 50%;
 }
 .standard-courses-content-container {
   display: flex;
   flex-direction: column;
   justify-content: left;
   margin-left: 3em;
+  width: 50%;
 }
 .standard-courses-container-large-image {
   justify-content: left;
+  object-fit: contain;
+  height: 100%;
+  width: 100%;
 }
 .standard-courses-container-small-image {
-  height: 20%;
-  width: 20%;
+	/* margin: auto; */
+	justify-content: left;
+	object-fit: contain;
+	height: 20%;
+	width: 20%;
 }
 .mini-message-standard-courses {
   font-family: Poppins;
@@ -315,3 +338,27 @@ a {
   letter-spacing: 0.57px;
   text-align: center;
 }
+.content-middle
+{
+	display: flex;
+	flex-direction: row;
+	margin: auto;
+	z-index: 2;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
