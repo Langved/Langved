@@ -1,24 +1,26 @@
 @import url("https://fonts.googleapis.com/css2?family=Kanit&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Kanit&family=Poppins&display=swap");
 
-*
-{
-    margin: 0;
-    padding: 0;
-    /* border: solid red 2px; */
+* {
+  margin: 0;
+  padding: 0;
+  /* border: solid red 2px; */
 }
 
 html {
-    box-sizing: border-box;
+  box-sizing: border-box;
+  font-size: calc(1em + 1vw);
 }
-
+a {
+  text-decoration: none;
+  color: white;
+}
 
 .body {
   background-color: #ffffff;
 }
 
-.head
-{
+.head {
   height: 100vh;
   width: 100%;
   padding-top: 35px;
@@ -27,114 +29,58 @@ html {
   z-index: 1;
 }
 
-
-.content
-{
-    position: relative;
-    /* margin-top: 50vh; */
-    top: 65vh;
-    width: 80vw;
-    display: flex;
-    flex-direction: column;
-    margin: auto;
-    z-index: 2;
+.content-top {
+  position: relative;
+  top: 65vh;
+  width: 80vw;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  z-index: 2;
 }
 
 .nav {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  /* align-content: center; */
   width: 80vw;
   margin: auto;
 }
 
-.nav-item
-{
-    height: 40px;
-    padding: 0.75em;
-    padding-left: 1.5em;
-    padding-right: 1.5em;
-    cursor: pointer;
-    z-index: 1;
+.nav-item {
+  height: 40px;
+  padding: 0.75em;
+  padding-left: 1.5em;
+  padding-right: 1.5em;
+  margin-right: 1em;
+  margin-left: 1em;
+  cursor: pointer;
+  z-index: 1;
+  font-family: Kanit;
+  font-size: 0.55em;
+  font-weight: 800;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 0.57px;
+  color: #001436;
 }
 
 .logo {
-  width: 186px;
-  height: 48px;
-  /* margin: 0 62px 0 0; */
+  width: 15%;
+  height: 15%;
+  margin-right: 1em;
 }
-
-.home {
-  /* width: 45px; */
-  height: 24px;
-  /* margin: 0 70px 0 0; */
-  font-family: Kanit;
-  font-size: 16px;
-  font-weight: 500;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: normal;
-  letter-spacing: 0.57px;
-  color: #001436;
-}
-
-.TheLanguageZone {
-  /* width: 152px; */
-  height: 24px;
-  /* margin: 0 70px; */
-  font-family: Kanit;
-  font-size: 16px;
-  font-weight: 500;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: normal;
-  letter-spacing: 0.57px;
-  color: #001436;
-}
-
-.Events-Activities {
-  /* width: 146px; */
-  height: 24px;
-  /* margin: 0 70px; */
-  font-family: Kanit;
-  font-size: 16px;
-  font-weight: 500;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: normal;
-  letter-spacing: 0.57px;
-  color: #001436;
-}
-
-.About-Us {
-  /* width: 72px; */
-  height: 24px;
-  /* margin: 0 0 0 70px; */
-  font-family: Kanit;
-  font-size: 16px;
-  font-weight: 500;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: normal;
-  letter-spacing: 0.57px;
-  color: #001436;
-}
-
 .BG {
-  /* width: 180px; */
   height: 40px;
-  /* margin: 14px 0 13px 73px; */
   padding: 0.75em;
   padding-left: 1.5em;
   padding-right: 1.5em;
   border-radius: 2em;
-
   border: solid 2px #ffffff;
   background-color: #000421;
 }
 .Text {
-  /* width: 85px; */
   height: 21px;
   font-family: Kanit;
   font-size: 14px;
@@ -147,19 +93,13 @@ html {
   color: #ffffff;
 }
 
-
-a {
-  text-decoration: none;
-}
-
 .bold-message {
-  /* margin-top: 130px; */
   width: 70vw;
   height: 25vh;
   margin: auto;
   margin-top: 1em;
   font-family: Kanit;
-  font-size: 60px;
+  font-size: 2.25em;
   font-weight: 500;
   font-stretch: normal;
   font-style: normal;
@@ -169,9 +109,6 @@ a {
   color: #001436;
 }
 
-
-
-
 .message {
   width: 80vw;
   /* height: 84px; */
@@ -179,52 +116,35 @@ a {
   margin-top: 0.75em;
   padding: 0.75em;
   font-family: Poppins;
-  font-size: 16px;
+  font-size: 0.6em;
   font-weight: normal;
   font-stretch: normal;
   font-style: normal;
   line-height: 2.63;
-  /* letter-spacing: 0.57px; */
   text-align: center;
   color: #000000;
 }
 
-
-
-.image_container
-{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    /* border: solid blue 2px; */
+.image_container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .img_hero {
-    margin: auto;
-    width: 70%;
-    height: 70%;
+  margin: auto;
+  width: 70%;
+  height: 70%;
 }
 
-
-
-.languages_container
-{
-    margin: auto;
-    margin-top: 2em;
-    display: flex;
-    flex-direction: column;
-
+.languages_container {
+  margin: auto;
+  margin-top: 2em;
+  display: flex;
+  flex-direction: column;
 }
-
-
-
-
-
-
-
 
 .small-text {
-  /* width: 245px; */
   height: 42px;
   margin: auto;
   font-family: Poppins;
@@ -284,4 +204,114 @@ a {
   height: 72px;
   margin: 0 1px;
   object-fit: contain;
+}
+.language-courses-container {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin: auto;
+}
+.mini-message {
+  font-family: Poppins;
+  font-size: 0.5em;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  padding-top: 6em;
+  color: #ff5670;
+}
+.large-message {
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+  font-family: Kanit;
+  font-size: 1.8em;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 0.71;
+  text-align: center;
+  color: #000000;
+}
+.medium-message {
+  padding-bottom: 7em;
+  font-family: Poppins;
+  font-size: 0.55em;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 2.5;
+  text-align: center;
+  color: #000000;
+}
+.standard-courses-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  margin: auto;
+}
+.standard-courses-image-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+}
+.standard-courses-content-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  margin-left: 3em;
+}
+.standard-courses-container-large-image {
+  justify-content: left;
+}
+.standard-courses-container-small-image {
+  height: 20%;
+  width: 20%;
+}
+.mini-message-standard-courses {
+  font-family: Poppins;
+  font-size: 0.5em;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  padding-top: 2em;
+  color: #26ccc9;
+}
+.medium-message-standard-courses {
+  padding-bottom: 2em;
+  font-family: Poppins;
+  font-size: 0.55em;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 2.5;
+  text-align: left;
+  color: #000000;
+}
+.large-message-standard-courses {
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+  font-family: Kanit;
+  font-size: 1.4em;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 0.71;
+  text-align: left;
+  color: #000000;
+}
+.learn-more-standard-courses {
+  width: 20%;
+  padding: 0.75em;
+  padding-left: 1.5em;
+  padding-right: 1.5em;
+  border-radius: 2em;
+  background-color: #000421;
+  font-family: Kanit;
+  font-size: 0.45em;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 0.57px;
+  text-align: center;
 }
