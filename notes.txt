@@ -1,0 +1,1 @@
+- While refactoring, reduce redundand css by combining CSS for the content of content-middle div.
