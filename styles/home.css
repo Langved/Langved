@@ -1,5 +1,6 @@
-@import url("https://fonts.googleapis.com/css2?family=Kanit&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Kanit&family=Poppins&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Kanit&family=Poppins&family=Lato&display=swap");
+
+
 
 * {
   margin: 0;
@@ -20,7 +21,7 @@ a {
   background-color: #ffffff;
 }
 
-.head {
+header {
   height: 100vh;
   width: 100%;
   padding-top: 35px;
@@ -35,7 +36,7 @@ a {
   display: flex;
   flex-direction: column;
   margin: auto;
-  z-index: 2;
+  background-image: linear-gradient(to top, #e5ffff 33%, #ffffff);
 }
 
 .content-top {
@@ -80,7 +81,7 @@ a {
   margin-right: 1em;
 }
 
-.contact-us-btn {
+.dark-filled-btn {
   border-radius: 2em;
   color: white;
   background-color: #000421;
@@ -92,9 +93,30 @@ a {
   transition: all 0.25s;
 }
 
-.contact-us-btn:hover {
+.dark-filled-btn:hover {
   background-color: #106967;
+  
 }
+
+.light-transparent-btn
+{
+    border-radius: 2em;
+    border: solid #ffffff 2px;
+    font-weight: 500;
+    padding-left: 1.5em;
+    padding-right: 1.5em;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    transition: all 0.25s;
+}
+
+
+.light-transparent-btn:hover
+{
+    color: #106967;
+    border: solid #106967;
+}
+
 
 .bold-message {
   width: 70vw;
@@ -132,12 +154,14 @@ a {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  z-index: 2;
 }
 
 .img_hero {
   margin: auto;
   width: 70%;
   height: 70%;
+  z-index: 2;
 }
 
 .languages_container {
@@ -567,7 +591,7 @@ a {
 .icon_cal {
   width: 1.75%;
   height: 1.75%;
-  padding-right: 1em;
+  padding: 1em;
 }
 .events-and-activities-mini-message {
   font-family: Poppins;
@@ -582,6 +606,7 @@ a {
   display: flex;
   flex-direction: row;
   justify-content: center;
+  align-items: center;
 }
 
 .about-us-content-container {
@@ -613,8 +638,10 @@ a {
   padding-top: 5em;
   display: flex;
   flex-direction: column;
+  justify-content: center;
   text-align: center;
   margin: auto;
+  margin-bottom: 2em;
 }
 .message-our-team {
   padding-bottom: 2em;
@@ -627,4 +654,277 @@ a {
   line-height: 2.5;
   text-align: center;
   color: #000000;
+}
+
+.img_OurTeam
+{
+    object-fit: contain;
+    /* height: 100%;
+    width: 100%; */
+    max-width: 100%;
+    height: auto;
+}
+
+
+.our-attributes-container
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.actual-attributes-container
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-family: Kanit;
+    text-align: center;
+    color: #000000;   
+}
+
+.determined , .passionate, .innovative
+{
+    margin: 1em;
+    padding: 1em;
+}
+
+.our-attributes-message
+{
+    font-family: Poppins;
+    font-size: 0.55em;
+    /* font-weight: 600; */
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 2.5;
+    text-align: center;
+    color: #000000;
+}
+
+.testimonials-container
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    padding-bottom: 5em;
+}
+
+
+.testimonials-message
+{
+    width: 50%;
+    margin: 2em;
+    background-color: #ffffff;
+    box-shadow: 0 17px 52px 0 rgba(0, 0, 0, 0.11);
+    border-radius: 5px;
+    padding-top: 2em;
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-bottom: 2em;
+    font-family: Kanit;
+    color: #000000;   
+    font-size: 1em ;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.testimonials-heading
+{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    font-family: Kanit;
+    text-align: center;
+    color: #000000;
+    margin: 1em;
+    /* width: 50%; */
+}
+
+.mini-message-testimonials
+{
+    font-family: Poppins;
+    font-size: 0.5em;
+    font-stretch: normal;
+    font-weight: 700;
+    font-style: normal;
+    line-height: normal;
+    padding-top: 2em;
+    color: #3c50e0;
+}
+
+.testimonial-btns
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.testimonial-arrow
+{
+    margin: 0.5em;
+}
+
+.testimonial-pattern-red
+{
+    position: absolute;
+    right: 1em;
+    top: 5em;
+}
+
+
+.testimonial-pattern-blue
+{
+    position: absolute;
+    left: 10em;
+    top: 12em;
+}
+.testimonial-pattern-teal
+{
+    position: absolute;
+    left: 0em;
+    top: 10em;
+}
+/* .testimonial-pattern-yellow
+{
+    position: absolute;
+    right: 1em;
+    top: 4em;
+} */
+
+
+footer
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    background-color: #000421;
+    color: white;
+    padding: 1em;
+    padding-top: 4em;
+    position: relative;
+    z-index: 1;
+    background-image: url("../images/img-footer-pattern.png");
+    background-position: 50% 0%;
+    background-repeat: no-repeat;
+}
+
+.footer-title
+{
+    font-family: Kanit;
+    font-weight: 600;
+    font-size: 1.75em;
+    color: #ffffff;
+    margin-bottom: 1em;
+    word-spacing: 0.15em;
+    letter-spacing: 0.05em;
+}
+
+.footer-mini-title
+{
+    font-family: 'Lato', sans-serif;
+    font-size: 0.55em;
+    color: #3bcecb;
+}
+
+.get-in-touch-btn
+{
+    width: 8em;
+    margin: auto;
+    font-family: Kanit;
+    font-size: 0.55em;
+    margin-bottom: 3em ;
+}
+
+.footer-content
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-image-container
+{
+    margin: 2em;
+}
+
+
+.footer-links-container
+{
+    margin: 2em;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    width: fit-content;
+}
+
+.links-title
+{
+    color: #e6ffff;
+    font-family: Kanit;
+    font-size: 0.55em;
+    margin: 0.5em;
+    text-align: left;
+}
+
+
+.quick-links, .institute, .contact
+{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0.75em;
+    margin: 0.75em;
+    /* width: fit-content; */
+}
+
+
+
+.quick-links > a, .institute > a, .contact > a
+{
+    color: #a0a3bd;
+    text-decoration: none;
+    font-family: Kanit;
+    font-size: 0.55em;
+    margin: 0.5em;
+    text-align: left;
+}
+
+
+
+.social-media
+{
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+}
+
+.social-media > img
+{
+    margin: 0.25em;
+}
+
+.footer-bottom-line
+{
+    border: solid #2b3479 1px;
+}
+
+.copyright
+{
+    color: #a0a3bd;
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-family: Kanit;
+    font-size: 0.55em;
+    margin: 0.5em;
 }
