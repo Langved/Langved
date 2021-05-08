@@ -717,6 +717,7 @@ header {
 .testimonials-message
 {
     width: 50%;
+    height: 8em;
     margin: 2em;
     background-color: #ffffff;
     box-shadow: 0 17px 52px 0 rgba(0, 0, 0, 0.11);
@@ -731,7 +732,12 @@ header {
     z-index: 1;
     display: flex;
     flex-direction: column;
+    position: F;
+}
 
+#message
+{
+    margin-bottom: 1em;
 }
 
 .testimonials-heading
@@ -763,11 +769,17 @@ header {
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
+    position: absolute;
+    top: 11em;
+    right: 4em;
 }
 
 .testimonial-arrow
 {
     margin: 0.5em;
+    background-color: #ffffff;
+    border: none;
+    cursor: pointer;
 }
 
 .testimonial-pattern-red
