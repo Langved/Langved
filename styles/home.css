@@ -940,3 +940,8 @@ footer
     font-size: 0.55em;
     margin: 0.5em;
 }
+
+.mobile
+{
+    display: none;
+}
