@@ -1,7 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Kanit&family=Poppins&family=Lato&display=swap");
 
-
-
 * {
   margin: 0;
   padding: 0;
@@ -55,9 +53,6 @@ header {
 }
 
 .nav-item {
-  /* height: 40px; */
-  /* width: 10em; */
-  /* padding: 0.75em; */
   padding-left: 1.5em;
   padding-right: 1.5em;
   margin-right: 0.5em;
@@ -71,7 +66,6 @@ header {
   font-style: normal;
   line-height: normal;
   align-self: center;
-  /* letter-spacing: 0.57px; */
   color: #001436;
 }
 
@@ -95,28 +89,23 @@ header {
 
 .dark-filled-btn:hover {
   background-color: #106967;
-  
 }
 
-.light-transparent-btn
-{
-    border-radius: 2em;
-    border: solid #ffffff 2px;
-    font-weight: 500;
-    padding-left: 1.5em;
-    padding-right: 1.5em;
-    padding-top: 0.5em;
-    padding-bottom: 0.5em;
-    transition: all 0.25s;
+.light-transparent-btn {
+  border-radius: 2em;
+  border: solid #ffffff 2px;
+  font-weight: 500;
+  padding-left: 1.5em;
+  padding-right: 1.5em;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+  transition: all 0.25s;
 }
 
-
-.light-transparent-btn:hover
-{
-    color: #106967;
-    border: solid #106967;
+.light-transparent-btn:hover {
+  color: #106967;
+  border: solid #106967;
 }
-
 
 .bold-message {
   width: 70vw;
@@ -172,7 +161,7 @@ header {
 }
 
 .small-text {
-  height: 42px;
+  height: 1.5em;
   margin: auto;
   font-family: Poppins;
   font-size: 16px;
@@ -185,8 +174,8 @@ header {
   color: #bcbcbc;
 }
 .bubble {
-  margin: 10px;
-  padding: 10px;
+  margin: 0.4em;
+  padding: 0.4em;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -656,151 +645,135 @@ header {
   color: #000000;
 }
 
-.img_OurTeam
-{
-    object-fit: contain;
-    /* height: 100%;
+.img_OurTeam {
+  object-fit: contain;
+  /* height: 100%;
     width: 100%; */
-    max-width: 100%;
-    height: auto;
+  max-width: 100%;
+  height: auto;
 }
 
-
-.our-attributes-container
-{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+.our-attributes-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
-.actual-attributes-container
-{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    font-family: Kanit;
-    text-align: center;
-    color: #000000;   
+.actual-attributes-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  font-family: Kanit;
+  text-align: center;
+  color: #000000;
 }
 
-.determined , .passionate, .innovative
-{
-    margin: 1em;
-    padding: 1em;
+.determined,
+.passionate,
+.innovative {
+  margin: 1em;
+  padding: 1em;
 }
 
-.our-attributes-message
-{
-    font-family: Poppins;
-    font-size: 0.55em;
-    /* font-weight: 600; */
-    font-stretch: normal;
-    font-style: normal;
-    line-height: 2.5;
-    text-align: center;
-    color: #000000;
+.our-attributes-message {
+  font-family: Poppins;
+  font-size: 0.55em;
+  /* font-weight: 600; */
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 2.5;
+  text-align: center;
+  color: #000000;
 }
 
-.testimonials-container
-{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    position: relative;
-    padding-bottom: 5em;
+.testimonials-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  padding-bottom: 5em;
 }
 
-
-.testimonials-message
-{
-    width: 50%;
-    height: 8em;
-    margin: 2em;
-    background-color: #ffffff;
-    box-shadow: 0 17px 52px 0 rgba(0, 0, 0, 0.11);
-    border-radius: 5px;
-    padding-top: 2em;
-    padding-left: 1em;
-    padding-right: 1em;
-    padding-bottom: 2em;
-    font-family: Kanit;
-    color: #000000;   
-    font-size: 1em ;
-    z-index: 1;
-    display: flex;
-    flex-direction: column;
-    position: F;
+.testimonials-message {
+  width: 50%;
+  height: 8em;
+  margin: 2em;
+  background-color: #ffffff;
+  box-shadow: 0 17px 52px 0 rgba(0, 0, 0, 0.11);
+  border-radius: 5px;
+  padding-top: 2em;
+  padding-left: 1em;
+  padding-right: 1em;
+  padding-bottom: 2em;
+  font-family: Kanit;
+  color: #000000;
+  font-size: 1em;
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  position: F;
 }
 
-#message
-{
-    margin-bottom: 1em;
+#message {
+  margin-bottom: 1em;
 }
 
-.testimonials-heading
-{
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    font-family: Kanit;
-    text-align: center;
-    color: #000000;
-    margin: 1em;
-    /* width: 50%; */
+.testimonials-heading {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  font-family: Kanit;
+  text-align: center;
+  color: #000000;
+  margin: 1em;
+  /* width: 50%; */
 }
 
-.mini-message-testimonials
-{
-    font-family: Poppins;
-    font-size: 0.5em;
-    font-stretch: normal;
-    font-weight: 700;
-    font-style: normal;
-    line-height: normal;
-    padding-top: 2em;
-    color: #3c50e0;
+.mini-message-testimonials {
+  font-family: Poppins;
+  font-size: 0.5em;
+  font-stretch: normal;
+  font-weight: 700;
+  font-style: normal;
+  line-height: normal;
+  padding-top: 2em;
+  color: #3c50e0;
 }
 
-.testimonial-btns
-{
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
-    position: absolute;
-    top: 11em;
-    right: 4em;
+.testimonial-btns {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  position: absolute;
+  top: 11em;
+  right: 4em;
 }
 
-.testimonial-arrow
-{
-    margin: 0.5em;
-    background-color: #ffffff;
-    border: none;
-    cursor: pointer;
+.testimonial-arrow {
+  margin: 0.5em;
+  background-color: #ffffff;
+  border: none;
+  cursor: pointer;
 }
 
-.testimonial-pattern-red
-{
-    position: absolute;
-    right: 1em;
-    top: 5em;
+.testimonial-pattern-red {
+  position: absolute;
+  right: 1em;
+  top: 5em;
 }
 
-
-.testimonial-pattern-blue
-{
-    position: absolute;
-    left: 10em;
-    top: 12em;
+.testimonial-pattern-blue {
+  position: absolute;
+  left: 10em;
+  top: 12em;
 }
-.testimonial-pattern-teal
-{
-    position: absolute;
-    left: 0em;
-    top: 10em;
+.testimonial-pattern-teal {
+  position: absolute;
+  left: 0em;
+  top: 10em;
 }
 /* .testimonial-pattern-yellow
 {
@@ -809,139 +782,121 @@ header {
     top: 4em;
 } */
 
-
-footer
-{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    text-align: center;
-    background-color: #000421;
-    color: white;
-    padding: 1em;
-    padding-top: 4em;
-    position: relative;
-    z-index: 1;
-    background-image: url("../images/img-footer-pattern.png");
-    background-position: 50% 0%;
-    background-repeat: no-repeat;
+footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  background-color: #000421;
+  color: white;
+  padding: 1em;
+  padding-top: 4em;
+  position: relative;
+  z-index: 1;
+  background-image: url("../images/img-footer-pattern.png");
+  background-position: 50% 0%;
+  background-repeat: no-repeat;
 }
 
-.footer-title
-{
-    font-family: Kanit;
-    font-weight: 600;
-    font-size: 1.75em;
-    color: #ffffff;
-    margin-bottom: 1em;
-    word-spacing: 0.15em;
-    letter-spacing: 0.05em;
+.footer-title {
+  font-family: Kanit;
+  font-weight: 600;
+  font-size: 1.75em;
+  color: #ffffff;
+  margin-bottom: 1em;
+  word-spacing: 0.15em;
+  letter-spacing: 0.05em;
 }
 
-.footer-mini-title
-{
-    font-family: 'Lato', sans-serif;
-    font-size: 0.55em;
-    color: #3bcecb;
+.footer-mini-title {
+  font-family: "Lato", sans-serif;
+  font-size: 0.55em;
+  color: #3bcecb;
 }
 
-.get-in-touch-btn
-{
-    width: 8em;
-    margin: auto;
-    font-family: Kanit;
-    font-size: 0.55em;
-    margin-bottom: 3em ;
+.get-in-touch-btn {
+  width: 8em;
+  margin: auto;
+  font-family: Kanit;
+  font-size: 0.55em;
+  margin-bottom: 3em;
 }
 
-.footer-content
-{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
+.footer-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
 }
 
-.footer-image-container
-{
-    margin: 2em;
+.footer-image-container {
+  margin: 2em;
 }
 
-
-.footer-links-container
-{
-    margin: 2em;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    text-align: center;
-    width: fit-content;
+.footer-links-container {
+  margin: 2em;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  text-align: center;
+  width: fit-content;
 }
 
-.links-title
-{
-    color: #e6ffff;
-    font-family: Kanit;
-    font-size: 0.55em;
-    margin: 0.5em;
-    text-align: left;
+.links-title {
+  color: #e6ffff;
+  font-family: Kanit;
+  font-size: 0.55em;
+  margin: 0.5em;
+  text-align: left;
 }
 
-
-.quick-links, .institute, .contact
-{
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    padding: 0.75em;
-    margin: 0.75em;
-    /* width: fit-content; */
+.quick-links,
+.institute,
+.contact {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0.75em;
+  margin: 0.75em;
+  /* width: fit-content; */
 }
 
-
-
-.quick-links > a, .institute > a, .contact > a
-{
-    color: #a0a3bd;
-    text-decoration: none;
-    font-family: Kanit;
-    font-size: 0.55em;
-    margin: 0.5em;
-    text-align: left;
+.quick-links > a,
+.institute > a,
+.contact > a {
+  color: #a0a3bd;
+  text-decoration: none;
+  font-family: Kanit;
+  font-size: 0.55em;
+  margin: 0.5em;
+  text-align: left;
 }
 
-
-
-.social-media
-{
-    display: flex;
-    flex-direction: row;
-    margin: auto;
+.social-media {
+  display: flex;
+  flex-direction: row;
+  margin: auto;
 }
 
-.social-media > img
-{
-    margin: 0.25em;
+.social-media > img {
+  margin: 0.25em;
 }
 
-.footer-bottom-line
-{
-    border: solid #2b3479 1px;
+.footer-bottom-line {
+  border: solid #2b3479 1px;
 }
 
-.copyright
-{
-    color: #a0a3bd;
-    text-decoration: none;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    font-family: Kanit;
-    font-size: 0.55em;
-    margin: 0.5em;
+.copyright {
+  color: #a0a3bd;
+  text-decoration: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-family: Kanit;
+  font-size: 0.55em;
+  margin: 0.5em;
 }
 
-.mobile
-{
-    display: none;
+.mobile {
+  display: none;
 }
