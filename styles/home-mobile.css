@@ -12,12 +12,17 @@
     {
         display: none;
     }
+    body
+    {
+        position: relative;
+    }
     header
     {
         padding: 0.75em;
         height: 65vh;
-        position: static;
+        position: relative;
         margin: auto;
+        /* margin-bottom: 30vh; */
         width: 100vw;
         /* margin-top: 0; */
     }
@@ -56,6 +61,8 @@
         align-items: center;
         justify-content: center;
         margin: auto;
+        position: absolute;
+        /* z-index: 1; */
         /* border: solid 4px blue; */
         /* overflow: hidden; */
     }
@@ -65,21 +72,24 @@
     {
         width: unset;
         height: unset;
+        z-index: unset;
         /* object-fit: contain; */
         margin: auto;
         /* border: solid green 4px; */
     }
     .content
     {
-        position: static;
+        position: unset;
         /* border: solid black 4px; */
-        margin-top: 2em;
+        margin-top: 8em;
+        z-index: unset;
     }
     
     .message
     {
         /* margin-top: 12em; */
         text-align: left;
+        position: relative;
     }
 
     .thought-bubbles
