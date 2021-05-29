@@ -14,7 +14,8 @@
     }
     body
     {
-        position: relative;
+        position: static;
+        /* border: solid purple 3px; */
     }
     header
     {
@@ -22,9 +23,8 @@
         height: 65vh;
         position: relative;
         margin: auto;
-        /* margin-bottom: 30vh; */
         width: 100vw;
-        /* margin-top: 0; */
+        /* border: solid blue 3px; */
     }
     .nav
     {
@@ -51,37 +51,43 @@
         height: unset;
         text-align: left;
         font-weight: 700;
-        font-size: 1.5em;
+        font-size: 8vw;
         line-height: 1.5em;
         margin: auto;
         margin-top: 1.5em;
     }
+    .content-top
+    {
+        position: static;
+        margin-top: 60vw;
+        width: 90vw;
+        /* border: solid red 2px; */
+    }
     .image_container
     {
-        align-items: center;
-        justify-content: center;
-        margin: auto;
+        align-items: right;
+        justify-content: right;
+        width: 90vw;
         position: absolute;
-        /* z-index: 1; */
-        /* border: solid 4px blue; */
-        /* overflow: hidden; */
+        top:40vh;
+        right: 0;
     }
 
 
     .img_hero
     {
-        width: unset;
-        height: unset;
+        width: 100%;
+        height: auto;
         z-index: unset;
-        /* object-fit: contain; */
-        margin: auto;
+        object-fit: contain;
+        /* margin: auto; */
         /* border: solid green 4px; */
     }
     .content
     {
-        position: unset;
+        position: static;
         /* border: solid black 4px; */
-        margin-top: 8em;
+        /* margin-top: 8em; */
         z-index: unset;
     }
     
@@ -94,6 +100,57 @@
 
     .thought-bubbles
     {
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .row-1, .row-2
+    {
+        display: flex;
         flex-direction: column;
     }
+    .standard-courses-container, .refresher-courses-container, .conversation-courses-container
+    {
+        flex-direction: column;
+    }
+    .refresher-courses-container
+    {
+        align-items: flex-end;
+    }
+    .standard-courses-image-container, .refresher-courses-image-container, .conversation-courses-image-container
+    {
+        width: 80vw;
+    }
+    .refresher-courses-image-container
+    {
+        justify-content: right;
+        /* border: solid red 2px; */
+    }
+    .standard-courses-content-container, .refresher-courses-content-container, .conversation-courses-content-container
+    {
+        /* margin-left: unset; */
+        margin: 2.5vw;
+        padding: 2.5vw;
+        margin-top: 10vw;
+        width: auto;
+        /* border: solid red 2px; */
+    }
+    .learn-more-standard-courses, .learn-more-refresher-courses, .learn-more-conversation-courses
+    {
+        width: 40vw;
+    }
+    .standard-courses-header, .refresher-courses-header, .conversation-courses-header
+    {
+        display: flex;
+        flex-direction: row;
+    }
+    .standard-courses-title-set, .refresher-courses-title-set, .conversation-courses-title-set 
+    {
+        margin-left: 10vw;
+    }
+    .medium-message-standard-courses, .medium-message-refresher-courses, .medium-message-conversation-courses
+    {
+        font-size: 4vw;
+        line-height: normal;
+    }
+
 }
