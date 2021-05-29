@@ -194,10 +194,10 @@ header {
   font-style: normal;
 }
 
-.row-1, .row-2
-{
-    display: flex;
-    flex-direction: row;
+.row-1,
+.row-2 {
+  display: flex;
+  flex-direction: row;
 }
 
 .bubble_img {
@@ -313,7 +313,7 @@ header {
 .medium-message-standard-courses {
   padding-bottom: 2em;
   font-family: Poppins;
-  font-size: 0.55em;
+  font-size: 0.57em;
   font-weight: 500;
   font-stretch: normal;
   font-style: normal;
@@ -326,7 +326,7 @@ header {
   padding-bottom: 0.5em;
   font-family: Kanit;
   font-size: 1.4em;
-  font-weight: 500;
+  font-weight: 600;
   font-stretch: normal;
   font-style: normal;
   line-height: 0.71;
@@ -409,7 +409,7 @@ header {
   padding-bottom: 0.5em;
   font-family: Kanit;
   font-size: 1.4em;
-  font-weight: 500;
+  font-weight: 600;
   font-stretch: normal;
   font-style: normal;
   line-height: 0.71;
@@ -492,7 +492,7 @@ header {
   padding-bottom: 0.5em;
   font-family: Kanit;
   font-size: 1.4em;
-  font-weight: 500;
+  font-weight: 600;
   font-stretch: normal;
   font-style: normal;
   line-height: 0.71;
