@@ -154,10 +154,58 @@
     font-size: 4vw;
     line-height: normal;
   }
-  .the-langved-story-img {
+  .medium-message-our-upcomers,
+  .medium-message-events-and-activities {
+    padding: 10vw;
+    font-size: 0.75em;
+    font-weight: 600;
+  }
+  .upcomers-content,
+  .events-and-activities-content {
+    font-size: 0.8em;
+    font-weight: 500;
+  }
+  .content-middle-2 {
+    position: static;
+    width: 100vw;
+    margin: 0;
+    margin-top: 60vw;
+  }
+  .about-us-content-container {
     justify-content: left;
+    /* border: 2px solid red; */
+    margin: 0;
+    padding-top: 2em;
+  }
+  .the-langved-story-img {
+    padding: 0;
   }
   .top-messsages-about-us {
-    padding-top: none;
+    text-align: right;
+    padding: 1em;
+  }
+  .mini-message-langved-story {
+    font-family: Poppins;
+    font-size: 0.7em;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    color: #26ccc9;
+  }
+  .medium-message-about-us {
+    font-weight: 600;
+    padding: 1em;
+  }
+  .knowmore-btn {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-self: center;
+    width: 80vw;
+    margin: 3em;
+  }
+  .large-message-langved-story {
+    text-align: right;
   }
 }

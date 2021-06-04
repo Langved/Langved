@@ -523,7 +523,13 @@ header {
   z-index: 2;
 }
 
-.medium-message-our-ucpomers,
+.content-middle-2 {
+  width: 80vw;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+}
+.medium-message-our-upcomers,
 .medium-message-events-and-activities {
   padding-bottom: 3em;
   font-family: Poppins;
@@ -628,6 +634,27 @@ header {
   font-stretch: normal;
   font-style: normal;
   line-height: 2.5;
+  text-align: left;
+  color: #000000;
+}
+.mini-message-langved-story {
+  font-family: Poppins;
+  font-size: 0.5em;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  padding-top: 2em;
+  color: #26ccc9;
+}
+.large-message-langved-story {
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+  font-family: Kanit;
+  font-size: 1.4em;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 0.71;
   text-align: left;
   color: #000000;
 }
