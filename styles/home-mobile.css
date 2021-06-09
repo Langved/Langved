@@ -79,6 +79,8 @@
     /* margin: auto; */
     /* border: solid green 4px; */
   }
+
+
   .content {
     position: static;
     /* border: solid black 4px; */
@@ -88,8 +90,10 @@
 
   .message {
     /* margin-top: 12em; */
+    width: 90vw;
     font-family: Poppins;
-    font-size: 0.6em;
+    font-size: 0.9em;
+    line-height: normal;
     text-align: left;
     position: relative;
   }
@@ -103,6 +107,11 @@
     display: flex;
     flex-direction: column;
   }
+  .medium-message{
+    font-size: 0.75em;
+    line-height: 2.25em;
+    font-weight: 600;
+  }
   .standard-courses-container,
   .refresher-courses-container,
   .conversation-courses-container,
@@ -110,6 +119,12 @@
   .activities {
     flex-direction: column;
   }
+  .icon_cal {
+    width: unset;
+    height: unset;
+    padding: 0.15em;
+  }
+
   .refresher-courses-container {
     align-items: flex-end;
   }
@@ -169,7 +184,6 @@
     position: static;
     width: 100vw;
     margin: 0;
-    margin-top: 60vw;
   }
   .about-us-content-container {
     justify-content: left;
@@ -194,18 +208,164 @@
     color: #26ccc9;
   }
   .medium-message-about-us {
-    font-weight: 600;
+    font-weight: 500;
+    font-size: 0.8em;
     padding: 1em;
+    line-height: normal;
   }
-  .knowmore-btn {
+  .learn-more-standard-courses, .learn-more-refresher-courses {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-self: center;
-    width: 80vw;
-    margin: 3em;
+    width: 60vw;
+    margin: auto;
+    padding: 0.75em;
+    font-size: 0.75em;
   }
   .large-message-langved-story {
     text-align: right;
   }
+  .our-team-container
+  {
+    width: 100vw;
+    padding-top: 1em;
+  }
+
+  .actual-attributes-container, .our-attributes-container
+  {
+    /* border: solid blue 3px; */
+    width: 100vw;
+  }
+  .determined,
+.passionate,
+.innovative {
+  margin: 0.4em;
+  padding: 0.4em;
+}
+.our-attributes-message
+{
+    margin: 1em;
+    padding: 1em;
+    font-size: 0.75em;
+    font-weight: 600;
+    line-height: 2em;
+
+}
+.message-our-team
+{
+    padding: 2em;
+    padding-top: 3em;
+
+}
+.testimonials-container
+{
+    flex-direction: column;
+}
+.testimonials-heading
+{
+    align-items: center;  
+}
+.testimonials-message
+{
+    width: 90vw;
+    height: auto;
+}
+.testimonial-btns
+{
+   position: static; 
+}
+.testimonial-pattern-red {
+    position: absolute;
+    height:30%;
+    width: auto;
+    right: 0.5em;
+    top: 17em;
+  }
+  
+  .testimonial-pattern-blue {
+    position: absolute;
+    left: 2em;
+    top: 21em;
+    height: 10%;
+    width: auto;
+  }
+  .testimonial-pattern-teal {
+    position: absolute;
+    height: 10%;
+    width: auto;
+    left: 5em;
+    top: 20em;
+  }
+  /* .testimonial-pattern-yellow
+  {
+      position: absolute;
+      right: 1em;
+      top: 4em;
+  } */
+footer
+{
+    width: 100vw;
+    background-position: center center;
+    background-size: contain;
+    background-attachment: fixed;
+
+}
+.get-in-touch-btn
+{
+    width:50vw;
+    font-size: 0.7em;
+}
+.footer-content
+{
+    flex-direction: column;
+}
+.footer-image-container
+{
+    width: 70vw;
+}
+.footer-image-container > img
+{
+    width: 65vw;
+    height: auto;
+    margin: auto;
+    object-fit: contain;
+}
+.social-media
+{
+    justify-content: center;
+}
+.social-media > img 
+{
+    margin: 0.5em;
+}
+.contact > a 
+{
+    font-size: 1em;
+    margin: auto;
+    margin-bottom: 0.5em;
+    text-align: center;
+}
+.institute
+{
+    align-items: center;
+    justify-content: center;
+    font-size: 2em;
+    margin: 0;
+    padding: 0;
+    color: #e6ffff;
+}
+.institute > a
+{
+    color: #e6ffff;
+}
+.copyright
+{
+    flex-direction: column;
+}
+.copyright > *
+{
+    padding: 0.25em;
+    margin: 0.25em;
+}
 }
