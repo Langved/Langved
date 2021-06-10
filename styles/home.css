@@ -6,9 +6,9 @@
   /* border: solid red 2px; */
 }
 
-.hit, .hit *
-{
-    border: solid red 2px;
+.hit,
+.hit * {
+  border: solid red 2px;
 }
 
 html {
@@ -537,6 +537,7 @@ header {
 .medium-message-our-upcomers,
 .medium-message-events-and-activities {
   padding-bottom: 3em;
+  margin: 2em;
   font-family: Poppins;
   font-size: 0.55em;
   font-weight: 500;
@@ -569,6 +570,7 @@ header {
   text-align: center;
   margin: auto;
   font-family: Kanit;
+  width: auto;
 }
 
 .technical-translations,
@@ -607,7 +609,7 @@ header {
   font-stretch: normal;
   font-style: normal;
   line-height: normal;
-  /* padding-bottom: 10em; */
+
   color: #ff5670;
 }
 .stay-tuned {
@@ -616,7 +618,6 @@ header {
   justify-content: center;
   align-items: center;
 }
-
 .about-us-content-container {
   display: flex;
   flex-direction: row;
@@ -720,7 +721,7 @@ header {
 .our-attributes-message {
   font-family: Poppins;
   font-size: 0.55em;
-  /* font-weight: 600; */
+  font-weight: 600;
   font-stretch: normal;
   font-style: normal;
   line-height: 2.5;
@@ -755,7 +756,6 @@ header {
   display: flex;
   flex-direction: column;
 }
-
 
 #message {
   margin-bottom: 1em;
@@ -815,12 +815,6 @@ header {
   left: 0em;
   top: 10em;
 }
-/* .testimonial-pattern-yellow
-{
-    position: absolute;
-    right: 1em;
-    top: 4em;
-} */
 
 footer {
   display: flex;
@@ -916,6 +910,9 @@ footer {
   display: flex;
   flex-direction: row;
   margin: auto;
+}
+.social-media-img {
+  margin: 0.25em;
 }
 
 .social-media > img {
