@@ -83,6 +83,8 @@ header {
 
 .dark-filled-btn {
   border-radius: 2em;
+  outline: none;
+  border: none;
   color: white;
   background-color: #000421;
   font-weight: 500;

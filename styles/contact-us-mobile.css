@@ -1,0 +1,45 @@
+@media screen and (max-width: 480px)
+{
+    .contact-us
+    {
+        width: 90vw;
+        padding: 0.5em;
+    }
+    .name, .contact-details, .other-detail-container
+    {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        margin-bottom: 0;
+    }
+    .lang-option-container
+    {
+        flex-direction: column;
+    }
+    .radio-label
+    {
+        margin: 1em;
+    }
+    .german-spanish
+    {
+        margin-bottom: 0;
+    }
+    .french-english
+    {
+        margin-top: 0;
+    }
+    .contact-details
+    {
+        margin-top: 0;
+    }
+
+    .form-min-title
+    {
+        align-self: center;
+    }
+    .form-input, .comments
+    {
+        width: 95%;
+    }
+}

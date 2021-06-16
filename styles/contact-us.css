@@ -1,0 +1,196 @@
+.overlay
+{
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: 3;
+    background-color: rgba(0,0,0,0.5);
+}
+
+.contact-us
+{
+    position: absolute;
+    width: 60vw;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+    /* border: solid red 10px; */
+    border-radius: 8px;
+    z-index: 4;
+    left: 0vw;
+    right: 0vw;
+    top: 20vh;
+    box-shadow: 0px 17px 52px rgb(0 0 0 / 11%);
+    padding: 2em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: Poppins;
+}
+
+.contact-us-title
+{
+    font-family: Kanit;
+    text-align: center;
+}
+
+.contact-form
+{
+    display: flex;
+    flex-direction: column;
+}
+
+.form-input
+{
+    border: solid 1px #4a4a4a;
+    border-radius: 24px;
+    padding: 1em;
+    margin: 1em;
+    width: 45%;
+    font-size: 0.5em;
+}
+
+.form-input::placeholder
+{
+    font-size: 1em;
+}
+
+.other-details, .language
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.lang-option-container
+{
+    display: flex;
+}
+
+.german-spanish, .french-english
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+.radio-label
+{
+    position:relative;
+    font-size: 0.75em;
+    margin: 0.5em;
+    height: 6em;
+    width: 6em;
+    /* border: solid red 2px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.radio-label input
+{
+    position: absolute;
+    opacity: 0;
+    height: 6em;
+    width: 6em;
+    cursor: pointer;
+}
+
+.radio-label .radio-custom
+{
+    border: solid #c5d6d6 1px;
+    border-radius: 5px;
+    display: flex;
+    height: 6em;
+    width: 6em;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.comments
+{
+    border: solid 1px #4a4a4a;
+    border-radius: 24px;
+    padding: 1em;
+    margin: 1em;
+    width: 90%;
+    align-self: center;
+}
+
+.close-contact-us
+{
+    align-self: flex-end;
+    background-color: #e4ffff;
+    width: 20px;
+    height: 20px;
+    padding: 10px;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.hidden
+{
+    display: none;
+}
+
+.personal-details
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0.5em;
+}
+.name, .contact-details, .other-detail-container
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: 0.5em;
+}
+.form-min-title
+{
+    align-self: flex-start;
+    font-size: 0.75em;
+}
+
+.form-submit
+{
+    width: 90%;
+    padding: 1em;
+    margin: 1em;
+    align-self: center;
+    cursor: pointer;
+}
+
+.contact-message
+{
+    font-size: 0.70em;
+    text-align: center;
+}
+
+
+.radio-label input:checked ~ .radio-custom
+{
+    opacity: 1;
+    border: solid #26ccc9 2px;
+    background-color: #f3ffff;
+}
+
+
