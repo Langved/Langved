@@ -112,10 +112,12 @@
     display: flex;
     height: 6em;
     width: 6em;
+    padding: 1em;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     text-align: center;
+    font-size: 0.7em;
 }
 
 .comments
@@ -185,6 +187,8 @@
     font-size: 0.70em;
     text-align: center;
 }
+
+
 
 
 .radio-label input:checked ~ .radio-custom
