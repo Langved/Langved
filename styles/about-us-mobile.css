@@ -1,6 +1,5 @@
 @media screen and (max-width: 480px) {
   * {
-    /* border: solid red 1px; */
     box-sizing: border-box;
   }
   .mobile {
@@ -9,18 +8,7 @@
   .desktop {
     display: none;
   }
-  nav {
-    justify-content: left;
-    justify-self: left;
-    margin-top: 0;
-  }
-  .nav-item {
-    display: none;
-  }
-  .logo {
-    width: 45%;
-    height: 45%;
-  }
+
   .bold-message-about-us {
     width: 90vw;
     height: unset;
@@ -31,17 +19,28 @@
     margin: auto;
     margin-top: 1.5em;
   }
+
+  .about-message
+  {
+      width: 90vw;
+  }
+
+  .about-main-image-container
+  {
+      width: 90vw;
+  }
+
   .the-langved-philosophy-container {
     display: flex;
     flex-direction: row;
-    width: 80vw;
+    width: 90vw;
     margin: auto;
     margin-top: 2em;
   }
   .the-langved-philosophy-content {
     display: flex;
     flex-direction: column;
-    width: 80vw;
+    width: 90vw;
     margin-left: auto;
     margin-right: auto;
     height: auto;
@@ -58,64 +57,46 @@
     font-size: 1.2em;
     color: #001436;
   }
-  .our-principles-row {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin: 1em;
+
+  .our-principles-container
+  {
+      width: 100vw;
+      padding-bottom: 2em;
+  }
+  .principle-container, .member-container, .intern-container
+  {
+      margin: 0.5em;
+  }
+  .principle-image, .member-image, .intern-image
+  {
+      width: 70%;
+      height: auto;
+      object-fit: contain;
   }
 
-  footer {
-    width: 100vw;
-    background-position: center center;
-    background-size: contain;
-    background-attachment: fixed;
-  }
-  .get-in-touch-btn {
-    width: 50vw;
-    font-size: 0.7em;
-  }
-  .footer-content {
-    flex-direction: column;
-  }
-  .footer-image-container {
-    width: 70vw;
-  }
-  .footer-image-container > img {
-    width: 65vw;
-    height: auto;
-    margin: auto;
-    object-fit: contain;
-  }
-  .social-media {
-    justify-content: center;
-  }
-  .social-media > img {
-    margin: 0.5em;
-  }
-  .contact > a {
-    font-size: 1em;
-    margin: auto;
-    margin-bottom: 0.5em;
-    text-align: center;
-  }
-  .institute {
-    align-items: center;
-    justify-content: center;
-    font-size: 2em;
+  .our-principles-row, .our-team-row, .our-interns-row
+  {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    align-items: flex-start;
     margin: 0;
-    padding: 0;
-    color: #e6ffff;
+    
   }
-  .institute > a {
-    color: #e6ffff;
+
+  .principle-subtitle
+  {
+      font-size: 12px;
   }
-  .copyright {
-    flex-direction: column;
+
+
+  .global-natives-message
+  {
+      width: 90vw;
   }
-  .copyright > * {
-    padding: 0.25em;
-    margin: 0.25em;
+
+  .aditi-message
+  {
+      width: 90vw;
   }
 }
