@@ -2,17 +2,18 @@
 <html lang="en">
 <head>
     <meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 		<title>Langved</title>
 		<meta charset="utf-8" />
-		<meta
-			name="viewport"
-			content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
-		<link rel="stylesheet" href="styles/home.css">
-        <link rel="stylesheet" href="styles/home-mobile.css">
+        <link rel="stylesheet" href="styles/nav.css">
+		<link rel="stylesheet" href="styles/utilities.css">
         <link rel="stylesheet" href="styles/contact-us.css">
         <link rel="stylesheet" href="styles/contact-us-mobile.css">
-		<link rel="preconnect" href="https://fonts.gstatic.com">
+        <link rel="stylesheet" href="styles/about-us.css">
+        <link rel="stylesheet" href="styles/about-us-mobile.css">
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Kanit&family=Lato&family=Poppins&display=swap" rel="stylesheet">
 		<link rel="apple-touch-icon" sizes="180x180" href="images/Favicon/apple-touch-icon.png">
 		<link rel="icon" type="image/png" sizes="32x32" href="images/Favicon/favicon-32x32.png">
 		<link rel="icon" type="image/png" sizes="16x16" href="images/Favicon/favicon-16x16.png">
@@ -27,13 +28,218 @@
 				<a href="#" class="nav-item">The Language Zone</a>
 				<a href="#" class="nav-item">Events & Activities</a>
 				<a href="/about.html" class="nav-item">About Us</a>
-				<a href="#" class="open-contact-us dark-filled-btn nav-item">CONTACT US</a>
+				<a href="#" class="nav-item open-contact-us dark-filled-btn">CONTACT US</a>
 			</nav>
-        <!-- nav bar for each page end -->
+    <!-- nav bar for each page end -->
         <header>
-            <h1 class="bold-message">
+            <h1 class="bold-message-about-us">
 				It all started for the love of languages.
 			</h1>
         </header>
+        <!-- Contact Us Starts -->
+        <div class="overlay hidden"></div>
+        <div class="contact-us hidden">
+            <div class="close-contact-us">
+                <img class="" src="images/icn-cross.png" srcset="images/icn-cross@2x.png 2x, images/icn-cross@3x.png 3x" />
+            </div>
+            <h3 class="contact-us-title">Contact Us</h3>
+            <form class="contact-form" action="" method="post">
+                <div class="personal-details">
+                    <h3 class="form-min-title">Personal Details</h3>
+                    <div class="name">
+                        <input class="form-input" type="text" name="firstName" id="firstName" placeholder="First Name">
+                        <input class="form-input" type="text" name="lastName" id="lastName" placeholder="Last Name">
+                    </div>
+                    <div class="contact-details">
+                        <input class="form-input" type="text" name="email" id="email" placeholder="Email Address">
+                        <input class="form-input" type="text" name="phone" id="phone" placeholder="Phone Number">
+                    </div>
+                </div>
+                <div class="language">
+                    <h3 class="form-min-title">Select Language</h3>
+                    <div class="lang-option-container">
+                        <div class="german-spanish">
+                            <label class="radio-label" for="german">
+                                <input type="radio" name="language" value="german" id="german">
+                                <div class="radio-custom">
+                                    <img class="" src="images/img-bubble-german.png" srcset="images/img-bubble-german@2x.png 2x, images/img-bubble-german@3x.png 3x"/>
+                                    German
+                                </div>
+                            </label>
+                            <label class="radio-label" for="Spanish">
+                                <input type="radio" name="language" value="spanish" id="spanish">
+                                <div class="radio-custom">
+                                    <img class="" src="images/img-bubble-spanish.png" srcset="images/img-bubble-spanish@2x.png 2x, images/img-bubble-spanish@3x.png 3x"/>
+                                    Spanish
+                                </div>
+                            </label>
+                        </div>
+                        <div class="french-english">
+                            <label class="radio-label" for="french">
+                                <input type="radio" name="language" value="french" id="french">
+                                <div class="radio-custom">
+                                    <img class="" src="images/img-bubble-french.png" srcset="images/img-bubble-french@2x.png 2x, images/img-bubble-french@3x.png 3x"/>
+                                    French
+                                </div>
+                            </label>
+                            <label class="radio-label" for="english">
+                                <input type="radio" name="language" value="english" id="english">
+                                <div class="radio-custom">
+                                    <img class="" src="images/img-bubble-english.png" srcset="images/img-bubble-english@2x.png 2x, images/img-bubble-english@3x.png 3x"/>
+                                    English
+                                </div>
+                            </label>
+                        </div>
+                    </div>
+
+                    </div>
+                <div class="other-details" style="font-family: Kanit;">
+                    <h3 class="form-min-title">Other Details</h3>
+                    <div class="other-detail-container">
+                        <select class="form-input" style="font-family: Kanit;" name="alreadyCompleted" id="alreadyCompleted">   
+                            <option selected disabled>I have already completed...</option>
+                            <option value="option3">None</option>
+                            <option value="option1">A1 level</option>
+                            <option value="option2">A2 level</option>
+                            <option value="option3">B1 level</option>
+                            <option value="option3">B2 level</option>
+                        </select>
+                        <select class="form-input" style="font-family: Kanit;" name="wantToJoin" id="wantToJoin">   
+                            <option selected disabled>I want to join...</option>
+                            <option value="option1">A1 level</option>
+                            <option value="option2">A2 level</option>
+                            <option value="option3">B1 level</option>
+                            <option value="option3">B2 level</option>
+                            <option value="option3">C1 level</option>
+                            <option value="option3">Other (Specify in comment) </option>
+                        </select>
+                    </div>
+                </div>
+                <textarea class="comments" name="comments" id="comments" cols="50" rows="5" placeholder="Comments"></textarea>
+                <input class="dark-filled-btn form-submit" type="submit" value="SUBMIT">
+                <p class="contact-message">Once you submit the details, someone from our team will get in touch soon.</p>
+            </form>
+        </div>
+        <!-- Contact Us Ends -->
+        <div class="about-main-content">
+            <div class="about-message">
+                It all started with an idea: sharing the experiences we had and the perspectives we developed in our years as language learners and then as linguists. Learning a language opens up the path leading to the heart of a culture and a people and in turn to an ocean of literature, films, history etc. Langved was created to empower individuals to explore the globe by handing over the right equipment to dive deep. 
+            </div>
+            <div class="about-main-image-container">
+                <img class="about-main-image" src="images/about-us/img-hero-about-us.png" srcset="images/about-us/img-hero-about-us@2x.png 2x, images/about-us/img-hero-about-us@3x.png 3x" />
+            </div>
+            <div class="the-langved-philosophy-container">
+                <div class="the-langved-philosophy-image-container">
+                    <img class="" src="images/about-us/Langved philosophy 1x.png" srcset="images/about-us/Langved philosophy2x.png 2x, images/about-us/Langved philosophy3x.png 3x" />
+                </div>
+                <div class="the-langved-philosophy-content">
+                    <h3 class="the-langved-philosophy-title">The Langved Philosophy</h3>
+                    <div class="philosophy-subsection">
+                        <h4 class="the-langved-philosophy-subtitle">Exploring diversity</h4>
+                        <p class="philosophy-message">
+                            The diversity of people and their culture is just as important as learning a language. Aspects like history, literature and culture define a language and exploring this diversity is one of the core beliefs of Langved.
+                        </p>
+                    </div>
+                    <div class="philosophy-subsection">
+                        <h4 class="the-langved-philosophy-subtitle">Bridging the gap</h4>
+                        <p class="philosophy-message">
+                            An understanding of a new culture and its language eventually makes it less foreign. Good communication eventually helps us bridge the gap between people and brings the world closer.
+                        </p>
+                    </div>
+                    <div class="philosophy-subsection">
+                        <h4 class="the-langved-philosophy-subtitle">Creating a holistic experience</h4>
+                        <p class="philosophy-message">
+                            Right from ordering the correct dishes at famous restaurants, conversing with interesting locals, reading all those monumental descriptions, to ultimately falling in love with the land; it poets and everything else shapes the entire experience that is a language. 
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="our-principles-container">
+                <h2 class="our-principles-title">
+                    Our Principles 
+                </h2>
+                <div class="our-principles-row">
+                    <div class="principle-container">
+                        <img class="" src="images/about-us/img-intergrity.png" srcset="images/about-us/img-intergrity@2x.png 2x, images/about-us/img-intergrity@3x.png 3x" />
+                        <h4 class="principle-subtitle">Integrity</h4>
+                    </div>
+                    <div class="principle-container">
+                        <img class="" src="images/about-us/img-approachability.png" srcset="images/about-us/img-approachability@2x.png 2x, images/about-us/img-approachability@3x.png 3x" />
+                        <h4 class="principle-subtitle">Approachability</h4>
+                    </div>
+                    <div class="principle-container">
+                        <img class="" src="images/about-us/img-creativity.png" srcset="images/about-us/img-creativity@2x.png 2x, images/about-us/img-creativity@3x.png 3x" />
+                        <h4 class="principle-subtitle">Creativity</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="about-main-content-2">
+            <h2 class="global-natives-title">Creating Global Natives</h2>
+            <p class="global-natives-message">
+                There’s one place where you truly belong - your native place. The feeling that this place - city or country - invokes inside your heart is innate and extremely personal. The culture, language, the local cuisine, or even the minutest nitty-gritty of that town are an inseparable part of you. You believe, that no amount of historical or cultural knowledge can make someone else truly belong here, and you would never belong somewhere else either. 
+            </p>
+            <p class="global-natives-message">
+                However, one day, during all the globetrotting, you fall in love with a foreign land beyond measures. You are now fascinated about exploring its language, culture, heritage and all those nitty-gritty. You wish to know it like you know yourself, like a native. But how is that even possible? Just by knowing Langved!  
+            </p>
+            <p class="global-natives-message">
+                Our sole purpose is to bridge every possible gap between you and the foreign land in such a way that it no longer remains foreign. With just the perfect blend of linguistic-love, cultural-curiosity, travel-magnetism and everything related, here’s a brand that believes in the true beauty of diversity. We have a team of language experts, travellers, avid readers settled around the globe, who have poured their heart into creating the concept of Langved.   
+            </p>
+            <p class="global-natives-message">
+                Here, with all the right tools to inhabit any corner of the world, you are now a Global Native!
+            </p>
+
+            <div class="our-team-container">
+                <h2 class="our-team-title">Our Team</h2>
+                <div class="aditi-container">
+                    <img class="aditi-image" src="images/about-us/img-aditi.png" srcset="images/about-us/img-aditi@2x.png 2x, images/about-us/img-aditi@3x.png 3x" />
+                    <h3 class="our-team-subtitle">Aditi Indulkar</h3>
+                    <span class="pink-designation">Founder & German Language Expert</span>
+                </div>
+                <p class="aditi-message">
+                    A very organized nomad, a lifelong student and an old soul with fresh ideas, Aditi is also an avid reader, a glocal traveller, and of course, a language lover.  Her journey with German made her realise that home could be found far away from one's native roots, and the world was like never before.  After years of discussion, study and sheer hard work, she has turned her dream into a reality by creating a space of her own and sharing some of her wisdom to those on similar paths. If you're looking for a journey with grammar, culture, creativity and new perspectives, she believes that you will surely find it with Langved.
+                </p>
+                <div class="our-team-row">
+                    <div class="member-container">
+                        <img class="member-image" src="images/about-us/img-mugdha.png" srcset="images/about-us/img-mugdha@2x.png 2x, images/about-us/img-mugdha@3x.png 3x" />
+                        <h3 class="member-name">Mugdha</h3>
+                        <span class="designation">
+                            Manager
+                        </span>
+                    </div>
+                    <div class="member-container">
+                        <img class="member-image" src="images/about-us/img-anuja.png" srcset="images/about-us/img-anuja@2x.png 2x, images/about-us/img-approachability@3x.png 3x" />
+                        <h3 class="member-name">Anuja</h3>
+                        <span class="designation">
+                            Consultant & Translation Expert 
+                        </span>
+                    </div>
+                    <div class="member-container">
+                        <img class="member-image" src="images/about-us/img-pranav.png" srcset="images/about-us/img-pranav@2x.png 2x, images/about-us/img-pranav@3x.png 3x" />
+                        <h3 class="member-name">Pranav</h3>
+                        <span class="designation">
+                            Travel Enthusiast & Writer 
+                        </span>
+                    </div>
+                </div>
+                <h3 class="our-interns-title">Our Interns</h3>
+                <div class="our-interns-row">
+                    <div class="intern-container">
+                        <img class="intern-image" src="images/about-us/img-pattern-gauri.png" srcset="images/about-us/img-pattern-gauri@2x.png 2x, images/about-us/img-pattern-gauri@3x.png 3x" />
+                        <h3 class="intern-name">Gauri</h3>
+                    </div>
+                    <div class="intern-container">
+                        <img class="intern-image" src="images/about-us/img-pattern-madhura.png" srcset="images/about-us/img-pattern-madhura@2x.png 2x, images/about-us/img-pattern-madhura@3x.png 3x" />
+                        <h3 class="intern-name">Madhura</h3>
+                    </div>
+                    <div class="intern-container">
+                        <img class="intern-image" src="images/about-us/img-pattern-anvaya.png" srcset="images/about-us/img-pattern-anvaya@2x.png 2x, images/about-us/img-pattern-anvaya@3x.png 3x" />
+                        <h3 class="intern-name">Anvaya</h3>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <script src="scripts/contact-us.js"></script>
 </body>
 </html>

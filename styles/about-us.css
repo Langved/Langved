@@ -1,0 +1,201 @@
+*
+{
+    box-sizing: border-box;
+}
+header
+{
+    background-color: white;
+    width: 100%;
+    height: unset;
+    position: static;
+}
+
+nav
+{
+    background-color: white;
+    color: white;
+}
+
+
+.bold-message-about-us
+{
+    width: 70vw;
+    height: 25vh;
+    margin: auto;
+    margin-top: 1em;
+    font-family: Kanit;
+    font-size: 5.25vw;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.22;
+    letter-spacing: 2.43px;
+    color: #001436;
+}
+
+.about-main-content
+{
+    background: rgb(17,0,0);
+    background: linear-gradient(180deg, rgba(17,0,0,1) 0%, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 15%, rgba(229,255,255,1) 20%, rgba(229,255,255,1) 100%);
+    margin: auto;
+    margin-top: 1em;
+    width: 100%;
+}
+
+.about-message
+{
+    width: 70vw;
+    margin: auto;
+    font-family: Poppins;
+    font-size: 16px;
+}
+
+.about-main-image-container
+{
+    width: 70vw;
+    height: auto;
+    margin: auto;
+}
+
+.about-main-image
+{
+    width: 100%;
+    height: auto;
+}
+
+.the-langved-philosophy-container
+{
+    display: flex;
+    width: 70vw;
+    margin: auto;
+    margin-top: 2em;
+
+}
+
+.the-langved-philosophy-image-container, .the-langved-philosophy-content
+{
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;
+    padding: 0.5em;
+}
+
+.the-langved-philosophy-title, .the-langved-philosophy-subtitle, .our-principles-title, .principle-subtitle, .global-natives-title, .our-team-title, .our-team-subtitle,.member-name, .our-interns-title, .intern-name
+{
+    font-family: Kanit;
+}
+
+.philosophy-message
+{
+    font-family: Poppins;
+    font-size: 16px;
+}
+
+.philosophy-subsection
+{
+    margin: 1em 0;
+}
+
+.our-principles-container
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.our-principles-row, .our-team-row, .our-interns-row
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1em;
+}
+
+.principle-container, .member-container, .intern-container
+{
+    display: flex;
+    width: 30%;
+    flex-direction: column;
+    margin: 1em;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.about-main-content-2
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2em;
+    margin: auto;
+    width: 100%;
+    background-image: linear-gradient(to top, #ffffff, #fff4da);
+
+}
+
+.global-natives-message
+{
+    font-family: Poppins;
+    font-size: 16px;
+    width: 70vw;
+    margin: 1em auto;
+}
+
+.our-team-container
+{
+    width: 100%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2em;
+}
+
+.aditi-container
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.aditi-image
+{
+    width: 70%;
+    height: auto;
+}
+
+.pink-designation
+{
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 800;
+    color: #ff5670;
+}
+
+.aditi-message
+{
+    font-family: Poppins;
+    font-size: 16px;
+    width: 70vw;
+    margin: 1em auto;   
+}
+
+.member-image, .intern-image
+{
+    width: 70%;
+    height: auto;
+}
+
+.designation
+{
+    font-family: Poppins;
+    font-size: 16px;
+}
