@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Langved</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="styles/nav.css" />
+    <link rel="stylesheet" href="styles/utilities.css" />
+    <link rel="stylesheet" href="styles/contact-us.css" />
+    <link rel="stylesheet" href="styles/contact-us-mobile.css" />
+    <link rel="stylesheet" href="styles/our-courses.css" />
+    <link rel="stylesheet" href="styles/our-courses-mobile.css" />
+    <link rel="stylesheet" href="styles/footer.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kanit&family=Lato&family=Poppins&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="images/Favicon/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="images/Favicon/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="images/Favicon/favicon-16x16.png"
+    />
+    <link rel="manifest" href="images/Favicon/site.webmanifest" />
+  </head>
+  <body>
+    !-- nav bar for each page start -->
+    <nav class="nav sticky">
+      <img class="logo" src="images/Logos/PNG/4x/Logo Coloured@4x.png" />
+      <a href="/home.html" class="home nav-item">Home</a>
+      <a href="/our-courses.html" class="nav-item">Our Courses</a>
+      <a href="#" class="nav-item">Events & Activities</a>
+      <a href="/about.html" class="nav-item">About Us</a>
+      <a href="#" class="open-contact-us dark-filled-btn nav-item"
+        >CONTACT US</a
+      >
+    </nav>
+    <!-- nav bar for each page end -->
+    <header class="">
+      <div class="header-content">
+        <h1 class="bold-message">Our Courses</h1>
+        <p class="desktop message">
+          Welcome to the heart of Langved - our language courses. We have
+          created each course with attention to detail. Let learning begin!
+        </p>
+      </div>
+      <div class="header-image">
+        <img
+          src="images/our-courses/img-hero-our-courses.png"
+          srcset="
+            images/our-courses/img-hero-our-courses@2x.png 2x,
+            images/our-courses/img-hero-our-courses@3x.png 3x
+          "
+          class=""
+        />
+      </div>
+    </header>
+
+    <!-- Contact Us Starts -->
+    <div class="overlay hidden"></div>
+    <div class="contact-us hidden">
+      <div class="close-contact-us">
+        <img
+          class=""
+          src="images/icn-cross.png"
+          srcset="images/icn-cross@2x.png 2x, images/icn-cross@3x.png 3x"
+        />
+      </div>
+      <h3 class="contact-us-title">Contact Us</h3>
+      <form class="contact-form" action="" method="post">
+        <div class="personal-details">
+          <h3 class="form-min-title">Personal Details</h3>
+          <div class="name">
+            <input
+              class="form-input"
+              type="text"
+              name="firstName"
+              id="firstName"
+              placeholder="First Name"
+            />
+            <input
+              class="form-input"
+              type="text"
+              name="lastName"
+              id="lastName"
+              placeholder="Last Name"
+            />
+          </div>
+          <div class="contact-details">
+            <input
+              class="form-input"
+              type="text"
+              name="email"
+              id="email"
+              placeholder="Email Address"
+            />
+            <input
+              class="form-input"
+              type="text"
+              name="phone"
+              id="phone"
+              placeholder="Phone Number"
+            />
+          </div>
+        </div>
+        <div class="language">
+          <h3 class="form-min-title">Select Language</h3>
+          <div class="lang-option-container">
+            <div class="german-spanish">
+              <label class="radio-label" for="german">
+                <input
+                  type="radio"
+                  name="language"
+                  value="german"
+                  id="german"
+                />
+                <div class="radio-custom">
+                  <img
+                    class=""
+                    src="images/img-bubble-german.png"
+                    srcset="
+                      images/img-bubble-german@2x.png 2x,
+                      images/img-bubble-german@3x.png 3x
+                    "
+                  />
+                  German
+                </div>
+              </label>
+              <label class="radio-label" for="Spanish">
+                <input
+                  type="radio"
+                  name="language"
+                  value="spanish"
+                  id="spanish"
+                />
+                <div class="radio-custom">
+                  <img
+                    class=""
+                    src="images/img-bubble-spanish.png"
+                    srcset="
+                      images/img-bubble-spanish@2x.png 2x,
+                      images/img-bubble-spanish@3x.png 3x
+                    "
+                  />
+                  Spanish
+                </div>
+              </label>
+            </div>
+            <div class="french-english">
+              <label class="radio-label" for="french">
+                <input
+                  type="radio"
+                  name="language"
+                  value="french"
+                  id="french"
+                />
+                <div class="radio-custom">
+                  <img
+                    class=""
+                    src="images/img-bubble-french.png"
+                    srcset="
+                      images/img-bubble-french@2x.png 2x,
+                      images/img-bubble-french@3x.png 3x
+                    "
+                  />
+                  French
+                </div>
+              </label>
+              <label class="radio-label" for="english">
+                <input
+                  type="radio"
+                  name="language"
+                  value="english"
+                  id="english"
+                />
+                <div class="radio-custom">
+                  <img
+                    class=""
+                    src="images/img-bubble-english.png"
+                    srcset="
+                      images/img-bubble-english@2x.png 2x,
+                      images/img-bubble-english@3x.png 3x
+                    "
+                  />
+                  English
+                </div>
+              </label>
+            </div>
+          </div>
+        </div>
+        <div class="other-details" style="font-family: Kanit">
+          <h3 class="form-min-title">Other Details</h3>
+          <div class="other-detail-container">
+            <select
+              class="form-input"
+              style="font-family: Kanit"
+              name="alreadyCompleted"
+              id="alreadyCompleted"
+            >
+              <option selected disabled>I have already completed...</option>
+              <option value="option3">None</option>
+              <option value="option1">A1 level</option>
+              <option value="option2">A2 level</option>
+              <option value="option3">B1 level</option>
+              <option value="option3">B2 level</option>
+            </select>
+            <select
+              class="form-input"
+              style="font-family: Kanit"
+              name="wantToJoin"
+              id="wantToJoin"
+            >
+              <option selected disabled>I want to join...</option>
+              <option value="option1">A1 level</option>
+              <option value="option2">A2 level</option>
+              <option value="option3">B1 level</option>
+              <option value="option3">B2 level</option>
+              <option value="option3">C1 level</option>
+              <option value="option3">Other (Specify in comment)</option>
+            </select>
+          </div>
+        </div>
+        <textarea
+          class="comments"
+          name="comments"
+          id="comments"
+          cols="50"
+          rows="5"
+          placeholder="Comments"
+        ></textarea>
+        <input
+          class="dark-filled-btn form-submit"
+          type="submit"
+          value="SUBMIT"
+        />
+        <p class="contact-message">
+          Once you submit the details, someone from our team will get in touch
+          soon.
+        </p>
+      </form>
+    </div>
+    <!-- Contact Us Ends -->
+
+    <!-- Footer for each page Start -->
+    <footer>
+      <span class="footer-mini-title">Enrol Now</span>
+      <h2 class="footer-title">Start your Langved journey today</h2>
+      <a href="#" class="light-transparent-btn get-in-touch-btn"
+        >GET IN TOUCH</a
+      >
+      <div class="footer-content">
+        <div class="footer-image-container">
+          <img src="images/img-logo-white.png" />
+        </div>
+        <div class="footer-links-container desktop">
+          <div class="quick-links">
+            <h5 class="links-title">Quicklinks</h5>
+            <a href="#">Home</a>
+            <a href="#">Courses</a>
+            <a href="#">Events & Activities</a>
+          </div>
+          <div class="institute">
+            <h5 class="links-title">Institute</h5>
+            <a href="#">About Us</a>
+            <a href="#">The Team</a>
+            <a href="#">Career</a>
+          </div>
+          <div class="contact">
+            <h5 class="links-title">Contact</h5>
+            <a href="tel:9912345678">+91 9912345678</a>
+            <a href="mailto:contact@langved.com">contact@langved.com</a>
+            <div class="social-media">
+              <a
+                href="https://www.instagram.com/langved_in/?utm_medium=copy_link"
+              >
+                <img
+                  class="social-media-img"
+                  src="images/icn-facebook-small.png"
+                  width="30"
+                  height="30"
+                />
+              </a>
+              <a
+                href="https://www.instagram.com/langved_in/?utm_medium=copy_link"
+              >
+                <img
+                  class="social-media-img"
+                  src="images/icn-instagram-small.png"
+                  width="30"
+                  height="30"
+                />
+              </a>
+              <a
+                href="https://www.instagram.com/langved_in/?utm_medium=copy_link"
+              >
+                <img
+                  class="social-media-img"
+                  src="images/icn-linkedin-small.png"
+                  width="30"
+                  height="30"
+                />
+              </a>
+              <a
+                href="https://www.instagram.com/langved_in/?utm_medium=copy_link"
+              >
+                <img
+                  class="social-media-img"
+                  src="images/icn-twitter.png"
+                  width="30"
+                  height="30"
+                />
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="footer-links-container mobile">
+          <div class="social-media">
+            <a
+              href="https://www.instagram.com/langved_in/?utm_medium=copy_link"
+            >
+              <img
+                class="social-media-img"
+                src="images/icn-facebook-small.png"
+              />
+            </a>
+            <a
+              href="https://www.instagram.com/langved_in/?utm_medium=copy_link"
+            >
+              <img
+                class="social-media-img"
+                src="images/icn-instagram-small.png"
+              />
+            </a>
+            <a
+              href="https://www.instagram.com/langved_in/?utm_medium=copy_link"
+            >
+              <img
+                class="social-media-img"
+                src="images/icn-linkedin-small.png"
+              />
+            </a>
+            <a
+              href="https://www.instagram.com/langved_in/?utm_medium=copy_link"
+            >
+              <img class="social-media-img" src="images/icn-twitter.png" />
+            </a>
+          </div>
+          <div class="contact">
+            <a href="tel:9912345678">+91 9912345678</a>
+            <a href="mailto:contact@langved.com">contact@langved.com</a>
+          </div>
+          <div class="institute">
+            <a href="#">About Us</a>
+            <a href="#">The Team</a>
+            <a href="#">Career</a>
+          </div>
+        </div>
+      </div>
+      <hr class="footer-bottom-line" />
+      <div class="copyright">
+        <span>© 2021 Langved</span>
+        <span class="developers">Designed by TwoDo Creative Studio</span>
+        <span class="developers"
+          >Developed by Dheeraj Lalwani & Rhutam Thakur</span
+        >
+      </div>
+    </footer>
+    <!-- Footer for each page End -->
+  </body>
+</html>
