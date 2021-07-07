@@ -59,9 +59,8 @@ nav {
   margin-top: 2em;
 }
 
-.the-langved-philosophy-image-container
-{
-    display: flex;
+.the-langved-philosophy-image-container {
+  display: flex;
   flex-direction: column;
   width: 50%;
   margin-left: auto;

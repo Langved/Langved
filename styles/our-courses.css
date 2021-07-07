@@ -53,3 +53,237 @@ nav {
   line-height: 2;
   color: #000000;
 }
+.content-top {
+  background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(255, 255, 255, 1) 15%,
+    rgba(229, 255, 255, 1) 20%,
+    rgba(255, 255, 255, 1) 100%
+  );
+}
+.current-courses-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 80vw;
+  margin: auto;
+}
+.current-courses-content {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
+.current-courses-title {
+  align-self: flex-start;
+  font-family: Kanit;
+  color: #001436;
+}
+.course-container {
+  display: flex;
+  flex-direction: column;
+  width: 33%;
+  margin: 0.5em;
+  padding: 1em;
+  background-color: white;
+  border-radius: 8px;
+  justify-content: center;
+  box-shadow: 0 17px 52px 0 rgba(0, 0, 0, 0.11);
+}
+.courses-title {
+  font-family: Kanit;
+  font-size: 20px;
+  text-align: center;
+  color: #001436;
+}
+.course-image {
+  align-self: center;
+  width: 70%;
+}
+.standard-courses-container,
+.conversation-courses-container {
+  display: flex;
+  flex-direction: row;
+  width: 80vw;
+  margin: auto;
+  padding-top: 4em;
+}
+.standard-courses-content,
+.conversation-courses-content {
+  padding: 2em;
+}
+.mini-message-standard-courses {
+  font-family: Poppins;
+  font-size: 0.5em;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  padding-top: 2em;
+  color: #26ccc9;
+}
+.medium-message-standard-courses,
+.medium-message-refresher-courses,
+.medium-message-conversation-courses {
+  padding-bottom: 2em;
+  font-family: Poppins;
+  font-size: 0.57em;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 2.5;
+  text-align: left;
+  color: #000000;
+}
+.large-message-standard-courses,
+.large-message-refresher-courses,
+.large-message-conversation-courses {
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+  font-family: Kanit;
+  font-size: 1.3em;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 0.71;
+  text-align: left;
+  color: #000000;
+}
+.overview-cards-row-1,
+.overview-cards-row-2 {
+  display: flex;
+  flex-direction: row;
+  width: 80vw;
+  margin: auto;
+}
+.overview-main-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: left;
+  width: 45%;
+}
+.overview-text {
+  font-family: Kanit;
+  font-size: 22px;
+  font-weight: 700;
+  margin: 0.5em;
+  text-align: left;
+  color: #001436;
+}
+.overview-container {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  margin: 0.5em;
+  padding: 1em;
+  background-color: white;
+  border-radius: 8px;
+  justify-content: center;
+  box-shadow: 0 17px 52px 0 rgba(0, 0, 0, 0.11);
+}
+.overview-card-text {
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  margin: 0.5em;
+  line-height: 2.5;
+  text-align: left;
+  color: #000000;
+}
+.overview-card-image {
+  align-self: left;
+  width: 40%;
+}
+.enroll-now-btn {
+  justify-content: center;
+  align-content: center;
+  margin-left: 23.5em;
+  margin-top: 1.2em;
+  margin-bottom: 4em;
+}
+.learn-more-standard-courses {
+  width: 20%;
+  padding: 1em;
+  padding-left: 3em;
+  padding-right: 3em;
+  border-radius: 2em;
+  background-color: #000421;
+  font-family: Kanit;
+  font-size: 0.45em;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 0.57px;
+  text-align: center;
+}
+.content-top-2 {
+  background-image: linear-gradient(to top, #ffffff, #fff4da);
+}
+.refresher-courses-container {
+  display: flex;
+  flex-direction: row;
+  width: 80vw;
+  margin: auto;
+  padding-top: 4em;
+}
+.refresher-courses-content {
+  padding-left: 2em;
+}
+.refresher-courses-image,
+.conversation-courses-image {
+  height: 50%;
+}
+.mini-message-refresher-courses {
+  font-family: Poppins;
+  font-size: 0.5em;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  padding-top: 2em;
+  color: #fcb300;
+}
+.refresher-courses-cards {
+  display: flex;
+  flex-direction: row;
+}
+.refresher-courses-cards-container {
+  display: flex;
+  flex-direction: column;
+  width: 45%;
+  margin: 0.5em;
+  padding: 0.5em;
+  background-color: white;
+  border-radius: 8px;
+  justify-content: center;
+  box-shadow: 0 17px 52px 0 rgba(0, 0, 0, 0.11);
+}
+.refresher-courses-cards-image-container {
+  display: flex;
+  flex-direction: row;
+}
+.refresher-courses-cards-images {
+  align-self: left;
+  width: 30%;
+}
+.enroll-now-btn-2 {
+  justify-content: center;
+  align-content: center;
+  margin-top: 1.2em;
+  margin-bottom: 4em;
+}
+.mini-message-conversation-courses {
+  font-family: Poppins;
+  font-size: 0.5em;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  padding-top: 2em;
+  color: #ff5670;
+}
