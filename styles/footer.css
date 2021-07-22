@@ -1,184 +1,182 @@
 footer {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    text-align: center;
-    background-color: #000421;
-    color: white;
-    padding: 1em;
-    padding-top: 4em;
-    position: relative;
-    z-index: 1;
-    background-image: url("../images/img-footer-pattern.png");
-    background-position: 50% 0%;
-    background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  background-color: #000421;
+  color: white;
+  padding: 1em;
+  padding-top: 4em;
+  position: relative;
+  z-index: 1;
+  background-image: url("../images/img-footer-pattern.png");
+  background-position: 50% 0%;
+  background-repeat: no-repeat;
+}
+
+.footer-title {
+  font-family: Kanit;
+  font-weight: 600;
+  font-size: 1.75em;
+  color: #ffffff;
+  margin-bottom: 1em;
+  word-spacing: 0.15em;
+  letter-spacing: 0.05em;
+}
+
+.footer-mini-title {
+  font-family: "Lato", sans-serif;
+  font-size: 0.55em;
+  color: #3bcecb;
+}
+
+.get-in-touch-btn {
+  width: 25%;
+  margin: auto;
+  font-family: Kanit;
+  font-size: 0.55em;
+  margin-bottom: 3em;
+}
+
+.footer-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-image-container {
+  margin: 2em;
+}
+
+.footer-links-container {
+  margin: 2em;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  text-align: center;
+  width: fit-content;
+}
+
+.links-title {
+  color: #e6ffff;
+  font-family: Kanit;
+  font-size: 0.55em;
+  margin: 0.5em;
+  text-align: left;
+}
+
+.quick-links,
+.institute,
+.contact {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0.75em;
+  margin: 0.75em;
+  /* width: fit-content; */
+}
+
+.quick-links > a,
+.institute > a,
+.contact > a {
+  color: #a0a3bd;
+  text-decoration: none;
+  font-family: Kanit;
+  font-size: 0.55em;
+  margin: 0.5em;
+  text-align: left;
+}
+
+.social-media {
+  display: flex;
+  flex-direction: row;
+  margin: auto;
+}
+.social-media-img {
+  margin: 0.25em;
+}
+
+.social-media > img {
+  margin: 0.25em;
+}
+
+.footer-bottom-line {
+  border: solid #2b3479 1px;
+}
+
+.copyright {
+  color: #a0a3bd;
+  text-decoration: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-family: Kanit;
+  font-size: 0.55em;
+  margin: 0.5em;
+}
+
+.mobile {
+  display: none;
+}
+
+@media screen and (max-width: 480px) {
+  footer {
+    width: 100%;
+    background-position: center center;
+    background-size: contain;
+    background-attachment: fixed;
   }
-  
-  .footer-title {
-    font-family: Kanit;
-    font-weight: 600;
-    font-size: 1.75em;
-    color: #ffffff;
-    margin-bottom: 1em;
-    word-spacing: 0.15em;
-    letter-spacing: 0.05em;
-  }
-  
-  .footer-mini-title {
-    font-family: "Lato", sans-serif;
-    font-size: 0.55em;
-    color: #3bcecb;
-  }
-  
   .get-in-touch-btn {
-    width: 25%;
-    margin: auto;
-    font-family: Kanit;
-    font-size: 0.55em;
-    margin-bottom: 3em;
+    width: 50vw;
+    font-size: 0.7em;
   }
-  
   .footer-content {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-  }
-  
-  .footer-image-container {
-    margin: 2em;
-  }
-  
-  .footer-links-container {
-    margin: 2em;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    text-align: center;
-    width: fit-content;
-  }
-  
-  .links-title {
-    color: #e6ffff;
-    font-family: Kanit;
-    font-size: 0.55em;
-    margin: 0.5em;
-    text-align: left;
-  }
-  
-  .quick-links,
-  .institute,
-  .contact {
-    display: flex;
     flex-direction: column;
-    align-items: flex-start;
-    padding: 0.75em;
-    margin: 0.75em;
-    /* width: fit-content; */
   }
-  
-  .quick-links > a,
-  .institute > a,
-  .contact > a {
-    color: #a0a3bd;
-    text-decoration: none;
-    font-family: Kanit;
-    font-size: 0.55em;
-    margin: 0.5em;
-    text-align: left;
+  .footer-image-container {
+    width: 70vw;
   }
-  
-  .social-media {
-    display: flex;
-    flex-direction: row;
+  .footer-image-container > img {
+    width: 65vw;
+    height: auto;
     margin: auto;
+    object-fit: contain;
   }
-  .social-media-img {
-    margin: 0.25em;
+  .social-media {
+    justify-content: center;
   }
-  
   .social-media > img {
-    margin: 0.25em;
-  }
-  
-  .footer-bottom-line {
-    border: solid #2b3479 1px;
-  }
-  
-  .copyright {
-    color: #a0a3bd;
-    text-decoration: none;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    font-family: Kanit;
-    font-size: 0.55em;
     margin: 0.5em;
   }
-  
+  .contact > a {
+    font-size: 1em;
+    margin: auto;
+    margin-bottom: 0.5em;
+    text-align: center;
+  }
+  .institute {
+    align-items: center;
+    justify-content: center;
+    font-size: 2em;
+    margin: 0;
+    padding: 0;
+    color: #e6ffff;
+  }
+  .institute > a {
+    color: #e6ffff;
+  }
+  .copyright {
+    flex-direction: column;
+  }
+  .copyright > * {
+    padding: 0.25em;
+    margin: 0.25em;
+  }
   .mobile {
+    display: block;
+  }
+  .desktop {
     display: none;
   }
-  
-@media screen and (max-width: 480px)
-{
-    footer {
-        width: 100vw;
-        background-position: center center;
-        background-size: contain;
-        background-attachment: fixed;
-      }
-      .get-in-touch-btn {
-        width: 50vw;
-        font-size: 0.7em;
-      }
-      .footer-content {
-        flex-direction: column;
-      }
-      .footer-image-container {
-        width: 70vw;
-      }
-      .footer-image-container > img {
-        width: 65vw;
-        height: auto;
-        margin: auto;
-        object-fit: contain;
-      }
-      .social-media {
-        justify-content: center;
-      }
-      .social-media > img {
-        margin: 0.5em;
-      }
-      .contact > a {
-        font-size: 1em;
-        margin: auto;
-        margin-bottom: 0.5em;
-        text-align: center;
-      }
-      .institute {
-        align-items: center;
-        justify-content: center;
-        font-size: 2em;
-        margin: 0;
-        padding: 0;
-        color: #e6ffff;
-      }
-      .institute > a {
-        color: #e6ffff;
-      }
-      .copyright {
-        flex-direction: column;
-      }
-      .copyright > * {
-        padding: 0.25em;
-        margin: 0.25em;
-      }
-      .mobile {
-        display: block;
-      }
-      .desktop
-      {
-          display: none;
-      }
 }
