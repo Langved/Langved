@@ -25,8 +25,20 @@
 	
     <body>
         <!-- nav bar for each page start -->
-        <nav class="nav sticky">
+        <nav class="desktop sticky"> 
             <img class="logo" src="images/Logos/PNG/4x/Logo Coloured@4x.png" />
+            <a href="/index.html" class="home nav-item">Home</a>
+            <a href="/our-courses.html" class="nav-item">Our Courses</a>
+            <a href="#" class="nav-item">Events & Activities</a>
+            <a href="/about.html" class="nav-item">About Us</a>
+            <a href="#" class="open-contact-us dark-filled-btn nav-item">CONTACT US</a>
+        </nav>
+        <nav class="mobile sticky"> 
+            <div class="nav-header">
+                <img class="logo" src="images/Logos/PNG/4x/Logo Coloured@4x.png" />
+                <img class="ham hit" src="images/icn-hamburgermenu.png" srcset="images/icn-hamburgermenu@2x.png 2x, images/icn-hamburgermenu@3x.png 3x"/>
+            </div>
+            
             <a href="/index.html" class="home nav-item">Home</a>
             <a href="/our-courses.html" class="nav-item">Our Courses</a>
             <a href="#" class="nav-item">Events & Activities</a>
@@ -55,7 +67,7 @@
                 <img class="" src="images/icn-cross.png" srcset="images/icn-cross@2x.png 2x, images/icn-cross@3x.png 3x" />
             </div>
             <h3 class="contact-us-title">Contact Us</h3>
-            <form class="contact-form" action="" method="post">
+            <form class="contact-form" name="submit-to-google-sheet">
                 <div class="personal-details">
                     <h3 class="form-min-title">Personal Details</h3>
                     <div class="name">
@@ -110,24 +122,25 @@
                     <div class="other-detail-container">
                         <select class="form-input" style="font-family: Kanit;" name="alreadyCompleted" id="alreadyCompleted">   
                             <option selected disabled>I have already completed...</option>
-                            <option value="option3">None</option>
-                            <option value="option1">A1 level</option>
-                            <option value="option2">A2 level</option>
-                            <option value="option3">B1 level</option>
-                            <option value="option3">B2 level</option>
+                            <option value="None">None</option>
+                            <option value="A1 level">A1 level</option>
+                            <option value="A2 level">A2 level</option>
+                            <option value="B1 level">B1 level</option>
+                            <option value="B2 level">B2 level</option>
                         </select>
                         <select class="form-input" style="font-family: Kanit;" name="wantToJoin" id="wantToJoin">   
                             <option selected disabled>I want to join...</option>
-                            <option value="option1">A1 level</option>
-                            <option value="option2">A2 level</option>
-                            <option value="option3">B1 level</option>
-                            <option value="option3">B2 level</option>
-                            <option value="option3">C1 level</option>
-                            <option value="option3">Other (Specify in comment) </option>
+                            <option value="A1 level">A1 level</option>
+                            <option value="A2 level">A2 level</option>
+                            <option value="B1 level">B1 level</option>
+                            <option value="B2 level">B2 level</option>
+                            <option value="C1 level">C1 level</option>
+                            <option value="Other">Other (Specify in comment) </option>
                         </select>
                     </div>
                 </div>
                 <textarea class="comments" name="comments" id="comments" cols="50" rows="5" placeholder="Comments"></textarea>
+                <input type="hidden" id="date-submitted" name="date-submitted">
                 <input class="dark-filled-btn form-submit" type="submit" value="SUBMIT">
                 <p class="contact-message">Once you submit the details, someone from our team will get in touch soon.</p>
             </form>

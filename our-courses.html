@@ -60,7 +60,7 @@
             <img class="" src="images/icn-cross.png" srcset="images/icn-cross@2x.png 2x, images/icn-cross@3x.png 3x" />
         </div>
         <h3 class="contact-us-title">Contact Us</h3>
-        <form class="contact-form" action="" method="post">
+        <form class="contact-form" name="submit-to-google-sheet">
             <div class="personal-details">
                 <h3 class="form-min-title">Personal Details</h3>
                 <div class="name">
@@ -145,6 +145,7 @@
             </div>
             <textarea class="comments" name="comments" id="comments" cols="50" rows="5"
                 placeholder="Comments"></textarea>
+            <input type="hidden" id="date-submitted" name="date-submitted">
             <input class="dark-filled-btn form-submit" type="submit" value="SUBMIT" />
             <p class="contact-message">
                 Once you submit the details, someone from our team will get in touch
@@ -283,7 +284,7 @@
                         <div class="refresher-courses-cards-images-container">
                             <img src="images/our-courses/img-level-a-1.png" srcset="images/our-courses/img-level-a-1@2x.png 2x,
                         images/our-courses/img-level-a-1@3x.png 3x" class="refresher-courses-cards-images">
-                            <img src="images/our-courses/img-level-a-2.png" srcset="images/our-coursesg/img-level-a-2@2x.png 2x,
+                            <img src="images/our-courses/img-level-a-2.png" srcset="images/our-courses/img-level-a-2@2x.png 2x,
                         images/our-courses/img-level-a-2@3x.png 3x" class="refresher-courses-cards-images">
                             <img src="images/our-courses/img-level-b-1.png" srcset="images/our-courses/img-level-b-1@2x.png 2x,
                         images/our-courses/img-level-b-1@3x.png 3x" class="refresher-courses-cards-images">
@@ -409,6 +410,7 @@
         </div>
     </footer>
     <!-- Footer for each page End -->
+    <script src="scripts/contact-us.js"></script>
 </body>
 
 </html>
