@@ -14,7 +14,7 @@ header {
   /* border: solid hotpink 2px; */
 }
 
-nav {
+.desktop-nav {
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -56,22 +56,50 @@ nav {
   margin-right: 1em;
 }
 
+
+.desktop-nav
+{
+    display: flex;
+}
+.mobile-nav
+{
+    display: none;
+}
+
+
+
+
+
+
+
 @media screen and (max-width: 480px) {
+
+    .desktop-nav
+    {
+        display: none;
+    }
+    .mobile-nav
+    {
+        display: flex;
+    }
   header {
     padding: 0.75em;
     height: 65vh;
     position: relative;
     margin: auto;
+    padding-top: 20%;
     width: 100%;
     /* border: solid blue 3px; */
   }
-  nav {
-    display: flex!important;
+  .mobile-nav {
+    display: flex;
     flex-direction: column;
     align-items: flex-start;
     justify-content: space-between;
-    height: 100%;
+    background-color: #e8ffff;
+    height: 15%;
     width: 100%;
+    overflow-y: hidden;
     margin-top: 0;
     padding-top: 1em;
     padding-bottom: 3em;

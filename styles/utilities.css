@@ -57,3 +57,23 @@ a {
   color: #106967;
   border: solid #106967;
 }
+
+.mobile
+{
+    display: none;
+}
+.desktop
+{
+    display: block;
+}
+
+@media screen and (max-width: 480px) {
+    .mobile
+    {
+        display: block;
+    }
+    .desktop
+    {
+        display: none;
+    }
+}

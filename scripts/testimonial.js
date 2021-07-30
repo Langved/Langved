@@ -17,7 +17,7 @@ function slideShow()
         let target = document.querySelector('#message');
         target.innerHTML = "";
         target.innerHTML = testimonialHTML[currentTestimonial];
-        console.log(target.innerHTML, currentTestimonial);
+        // console.log(target.innerHTML, currentTestimonial);
         if(currentTestimonial == testimonialHTML.length - 1)
         {
             currentTestimonial = 0;
