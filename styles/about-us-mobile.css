@@ -20,14 +20,12 @@
     margin-top: 1.5em;
   }
 
-  .about-message
-  {
-      width: 90vw;
+  .about-message {
+    width: 90vw;
   }
 
-  .about-main-image-container
-  {
-      width: 90vw;
+  .about-main-image-container {
+    width: 90vw;
   }
 
   .the-langved-philosophy-container {
@@ -46,6 +44,11 @@
     height: auto;
     padding: 0.5em;
   }
+  .the-langved-philosophy-images {
+    display: flex;
+    flex-direction: row;
+    padding: 1em;
+  }
   .philosophy-message {
     font-family: Poppins;
     font-size: 0.8em;
@@ -58,45 +61,42 @@
     color: #001436;
   }
 
-  .our-principles-container
-  {
-      width: 100vw;
-      padding-bottom: 2em;
+  .our-principles-container {
+    width: 100vw;
+    padding-bottom: 2em;
   }
-  .principle-container, .member-container, .intern-container
-  {
-      margin: 0.5em;
+  .principle-container,
+  .member-container,
+  .intern-container {
+    margin: 0.5em;
   }
-  .principle-image, .member-image, .intern-image
-  {
-      width: 70%;
-      height: auto;
-      object-fit: contain;
+  .principle-image,
+  .member-image,
+  .intern-image {
+    width: 70%;
+    height: auto;
+    object-fit: contain;
   }
 
-  .our-principles-row, .our-team-row, .our-interns-row
-  {
+  .our-principles-row,
+  .our-team-row,
+  .our-interns-row {
     display: flex;
     width: 100%;
     justify-content: space-around;
     align-items: flex-start;
     margin: 0;
-    
   }
 
-  .principle-subtitle
-  {
-      font-size: 12px;
+  .principle-subtitle {
+    font-size: 12px;
   }
 
-
-  .global-natives-message
-  {
-      width: 90vw;
+  .global-natives-message {
+    width: 90vw;
   }
 
-  .aditi-message
-  {
-      width: 90vw;
+  .aditi-message {
+    width: 90vw;
   }
 }

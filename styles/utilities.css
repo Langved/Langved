@@ -1,11 +1,10 @@
-* 
-{
-    margin: 0;
-    padding: 0;
-    /* border: solid red 2px; */
+* {
+  margin: 0;
+  padding: 0;
+  /* border: solid red 2px; */
 }
 
-:root
+/* :root
 {
     border: solid springgreen 2px;
 }
@@ -13,55 +12,48 @@
 .hit, .hit * 
 {
     border: solid red 2px;
+} */
+
+html {
+  box-sizing: border-box;
+  font-size: calc(1em + 1vw);
 }
 
-html 
-{
-    box-sizing: border-box;
-    font-size: calc(1em + 1vw);
+a {
+  text-decoration: none;
 }
 
-a
-{
-    text-decoration: none;
+.dark-filled-btn {
+  border-radius: 2em;
+  outline: none;
+  border: none;
+  color: white;
+  background-color: #000421;
+  font-weight: 500;
+  padding-left: 1.5em;
+  padding-right: 1.5em;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+  transition: all 0.25s;
 }
 
-.dark-filled-btn 
-{
-    border-radius: 2em;
-    outline: none;
-    border: none;
-    color: white;
-    background-color: #000421;
-    font-weight: 500;
-    padding-left: 1.5em;
-    padding-right: 1.5em;
-    padding-top: 0.5em;
-    padding-bottom: 0.5em;
-    transition: all 0.25s;
+.dark-filled-btn:hover {
+  background-color: #106967;
 }
 
-.dark-filled-btn:hover
-{
-    background-color: #106967;
+.light-transparent-btn {
+  border-radius: 2em;
+  color: #ffffff;
+  border: solid #ffffff 2px;
+  font-weight: 500;
+  padding-left: 1.5em;
+  padding-right: 1.5em;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+  transition: all 0.25s;
 }
 
-.light-transparent-btn
-{
-    border-radius: 2em;
-    color: #ffffff;
-    border: solid #ffffff 2px;
-    font-weight: 500;
-    padding-left: 1.5em;
-    padding-right: 1.5em;
-    padding-top: 0.5em;
-    padding-bottom: 0.5em;
-    transition: all 0.25s;
+.light-transparent-btn:hover {
+  color: #106967;
+  border: solid #106967;
 }
-
-.light-transparent-btn:hover
-{
-    color: #106967;
-    border: solid #106967;
-}
-
