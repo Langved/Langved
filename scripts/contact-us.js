@@ -15,7 +15,6 @@ function closeContactForm()
     expandMenu()
 }
 
-
 var today = new Date()
 document.getElementById('date-submitted').value=today;
 console.log(today)
@@ -28,5 +27,7 @@ form.addEventListener('submit', e => {
     fetch(scriptURL, { method: 'POST', body: new FormData(form)})
       .then(response => console.log('Success!', response))
       .catch(error => console.error('Error!', error.message))
+    //   let contact_form=document.querySelector("contact-form")
+    //   contact_form.reset()
       closeContactForm()
   })

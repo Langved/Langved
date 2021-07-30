@@ -99,6 +99,18 @@ header {
     align-self: flex-start;
     /* margin-right: 1em; */
   }
+  .social-media-nav {
+    display: flex;
+    flex-direction: row;
+    margin-top: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .social-media-img {
+    padding: 0.5em;
+    width: 4em;
+    height: auto;
+  }
 
   .nav-header {
     display: flex;
