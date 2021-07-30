@@ -45,7 +45,7 @@
     padding: 0.5em;
   }
   .the-langved-philosophy-images {
-    display: flex;
+    display: flex !important;
     flex-direction: row;
     padding: 1em;
   }

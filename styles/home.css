@@ -1,39 +1,34 @@
 @import url("https://fonts.googleapis.com/css2?family=Kanit&family=Poppins&family=Lato&display=swap");
 
-
-a
-{
-    color: white;
+a {
+  color: white;
 }
 
-.body 
-{
-    background-color: #ffffff;
+.body {
+  /* background: rgb(232, 255, 255); */
+  background-image: linear-gradient(
+    0deg,
+    rgba(232, 255, 255, 1) 0%,
+    rgba(232, 255, 255, 1) 25%,
+    rgba(255, 255, 255, 1) 50%,
+    rgba(232, 255, 255, 1) 75%,
+    rgba(232, 255, 255, 1) 100%
+  );
 }
 
-
-
-.content 
-{
-    position: relative;
-    top: 65vh;
-    display: flex;
-    flex-direction: column;
-    margin: auto;
-    background-image: linear-gradient(to top, #e5ffff 33%, #ffffff);
+.content {
+  top: 65vh;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
 }
 
-.content-top
-{
-    width: 80vw;
-    display: flex;
-    flex-direction: column;
-    margin: auto;
+.content-top {
+  width: 80vw;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
 }
-
-
-
-
 
 .bold-message {
   width: 70vw;
@@ -661,8 +656,8 @@ a
 }
 
 .testimonials-message {
-  width: 50%;
-  height: 8em;
+  width: 60%;
+  height: 12em;
   margin: 2em;
   background-color: #ffffff;
   box-shadow: 0 17px 52px 0 rgba(0, 0, 0, 0.11);
@@ -737,4 +732,3 @@ a
   left: 0em;
   top: 10em;
 }
-
