@@ -4,7 +4,7 @@ let timer = null;
 
 const getTestimonialData = async () => 
 {
-    const response = await fetch("../json/testimonial.json");
+    const response = await fetch("json/testimonial.json");
     const dataset = await response.json();
     return dataset;
 }
