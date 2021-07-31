@@ -1,11 +1,21 @@
 const closeBtn = document.querySelector(".close-contact-us");
 const openBtn = document.querySelector(".open-contact-us");
 const openBtnMob = document.querySelector(".open-contact-us-mob")
+const openBtnGIT= document.querySelector(".open-contact-us-GIT")
+const openBtnEnrolNowSCDesktop= document.querySelector(".open-contact-us-GIT-SCD")
+const openBtnEnrolNowSCMobile= document.querySelector(".open-contact-us-GIT-SCM")
+const openBtnEnrolNowRC= document.querySelector(".open-contact-us-GIT-RC")
+const openBtnEnrolNowCC= document.querySelector(".open-contact-us-GIT-CC")
 
 
 closeBtn.addEventListener("click", closeContactForm)
 openBtn.addEventListener("click", closeContactForm)
 openBtnMob.addEventListener("click", closeContactForm)
+openBtnGIT.addEventListener("click", closeContactForm)
+openBtnEnrolNowSCDesktop.addEventListener("click", closeContactForm)
+openBtnEnrolNowSCMobile.addEventListener("click", closeContactForm)
+openBtnEnrolNowRC.addEventListener("click", closeContactForm)
+openBtnEnrolNowCC.addEventListener("click", closeContactForm)
 
 function closeContactForm()
 {
