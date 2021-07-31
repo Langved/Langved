@@ -90,9 +90,6 @@ header {
     position: fixed;
     z-index: 99999;
   }
-  .nav-item {
-    /* display: none; */
-  }
   .logo {
     width: 150px;
     height: 50px;
@@ -108,7 +105,7 @@ header {
   }
   .social-media-img {
     padding: 0.5em;
-    width: 4em;
+    width: 3em;
     height: auto;
   }
 
@@ -130,9 +127,13 @@ header {
     z-index: 1;
     font-family: Kanit;
     font-size: 1.5em;
-    font-weight: 800;
+    font-weight: 900;
     padding-top: 0.5em;
     padding-bottom: 0.5em;
+    padding-left: unset;
+    padding-right: unset;
+    margin-right: unset;
+    margin-left: unset;
     font-stretch: normal;
     font-style: normal;
     line-height: normal;
