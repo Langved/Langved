@@ -39,21 +39,22 @@
     right: 0;
   }
 
-  .img_hero {
+  /* .img_hero {
     width: auto;
     object-fit: contain;
     position: absolute !important;
     right: 0%;
     margin: auto;
-    /* border: solid green 4px; */
-  }
+    align-self: center;
+  } */
 
   .img_hero {
-    width: 100%;
+    width: 80%;
     height: auto;
     z-index: unset;
     object-fit: contain;
-    /* margin: auto; */
+    margin: auto;
+    align-self: left;
     /* border: solid green 4px; */
   }
 
@@ -131,7 +132,7 @@
   .standard-courses-header,
   .refresher-courses-header,
   .conversation-courses-header {
-    display: flex;
+    display: flex !important;
     flex-direction: row;
   }
   .standard-courses-title-set,
@@ -271,5 +272,4 @@
       right: 1em;
       top: 4em;
   } */
-  
 }

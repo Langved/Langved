@@ -47,7 +47,7 @@
   .the-langved-philosophy-images {
     display: flex !important;
     flex-direction: row;
-    padding: 1em;
+    margin: 1em;
   }
   .philosophy-message {
     font-family: Poppins;
