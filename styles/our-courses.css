@@ -182,7 +182,7 @@ nav {
   padding: 1em;
   background-color: white;
   border-radius: 8px;
-  justify-content: center;
+  justify-content: flex-start;
   box-shadow: 0 17px 52px 0 rgba(0, 0, 0, 0.11);
 }
 .overview-card-text {
@@ -192,8 +192,8 @@ nav {
   font-stretch: normal;
   font-style: normal;
   margin: 0.5em;
-  line-height: 2.5;
-  text-align: left;
+  line-height: 2;
+  text-align: justify;
   color: #000000;
 }
 .overview-card-image {

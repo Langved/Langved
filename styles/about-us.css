@@ -42,6 +42,7 @@ nav {
   margin: auto;
   font-family: Poppins;
   font-size: 0.65em;
+  text-align: justify;
 }
 .about-main-image-container {
   width: 70vw;
@@ -97,6 +98,7 @@ nav {
   font-size: 0.55em;
   font-weight: 500;
   line-height: normal;
+  text-align: justify;
 }
 .philosophy-subsection {
   margin: 1em 0;

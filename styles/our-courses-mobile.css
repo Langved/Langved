@@ -38,6 +38,7 @@
     font-size: 14px;
     padding: 2em;
     padding-top: 4em;
+    text-align: center;
   }
   .current-courses-content {
     display: flex;
@@ -56,6 +57,7 @@
   }
   .content-top-2 {
     width: 100%;
+    border: solid red 2px;
   }
   .standard-courses-container {
     display: flex;
@@ -81,6 +83,7 @@
   .standard-courses-content,
   .conversation-courses-content {
     padding: 0.5em;
+    width: 100%;
   }
   .standard-courses-image {
     width: 90%;
@@ -91,6 +94,7 @@
   .medium-message-refresher-courses,
   .medium-message-conversation-courses {
     font-size: 14px;
+    padding: 1.5em;
   }
   .overview-cards-row-1,
   .overview-cards-row-2 {
@@ -105,7 +109,7 @@
     width: 90vw;
     margin: 0.8em auto;
     padding-right: 0.6em;
-    padding: 0em;
+    /* padding: 1em; */
     box-shadow: 17px 17px 52px 17px rgba(0, 0, 0, 0.11);
   }
   .overview-card-image {
@@ -121,7 +125,6 @@
   .refresher-courses-container {
     display: flex;
     flex-direction: column;
-    margin-left: 1em;
   }
   .refresher-courses-image {
     width: 90vw;
@@ -142,11 +145,15 @@
   }
   .refresher-courses-cards {
     display: flex;
+    width: 100%;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
   }
   .refresher-courses-cards-container {
-    width: 85vw;
+    width: 100%;
+    margin: auto;
+    
   }
   .enroll-now-btn-2 {
     justify-content: center;
@@ -157,6 +164,5 @@
   .conversation-courses-container {
     display: flex;
     flex-direction: column;
-    margin-left: 1em;
   }
 }

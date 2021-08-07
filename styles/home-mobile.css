@@ -71,7 +71,7 @@
     font-family: Poppins;
     font-size: 0.9em;
     line-height: normal;
-    text-align: left;
+    text-align: justify;
     position: relative;
   }
 
@@ -88,6 +88,7 @@
     font-size: 0.75em;
     line-height: 2.25em;
     font-weight: 600;
+    text-align: justify;
   }
   .standard-courses-container,
   .refresher-courses-container,
@@ -134,6 +135,8 @@
   .conversation-courses-header {
     display: flex !important;
     flex-direction: row;
+    display: inline;
+    
   }
   .standard-courses-title-set,
   .refresher-courses-title-set,
@@ -145,6 +148,7 @@
   .medium-message-conversation-courses {
     font-size: 4vw;
     line-height: normal;
+    text-align: justify;
   }
   .medium-message-our-upcomers,
   .medium-message-events-and-activities {

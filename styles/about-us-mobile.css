@@ -47,6 +47,8 @@
   .the-langved-philosophy-images {
     display: flex !important;
     flex-direction: row;
+    justify-content: center;
+    align-items: center;
     margin: 1em;
   }
   .philosophy-message {
@@ -94,6 +96,7 @@
 
   .global-natives-message {
     width: 90vw;
+    text-align: justify;
   }
 
   .aditi-message {

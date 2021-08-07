@@ -7,12 +7,12 @@
 /* :root
 {
     border: solid springgreen 2px;
-}
+} */
 
 .hit, .hit * 
 {
     border: solid red 2px;
-} */
+}
 
 html {
   box-sizing: border-box;
