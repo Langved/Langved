@@ -120,6 +120,12 @@ footer {
   display: none;
 }
 
+.developers > a
+{
+    color:#e6ffff;
+    text-decoration: underline;
+}
+
 @media screen and (max-width: 480px) {
   footer {
     width: 100%;
