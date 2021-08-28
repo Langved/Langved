@@ -101,5 +101,6 @@
 
   .aditi-message {
     width: 90vw;
+    text-align: justify;
   }
 }

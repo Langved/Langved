@@ -105,17 +105,18 @@
   }
   .overview-container {
     display: flex;
-    flex-direction: row;
     width: 90vw;
     margin: 0.8em auto;
     padding-right: 0.6em;
-    /* padding: 1em; */
     box-shadow: 17px 17px 52px 17px rgba(0, 0, 0, 0.11);
   }
   .overview-card-image {
     padding-top: 1em;
-    align-self: left;
     height: 40%;
+    float: left;
+  }
+  .overview-card-text {
+    text-align: justify;
   }
   .enroll-now-btn {
     justify-content: center;
@@ -153,7 +154,6 @@
   .refresher-courses-cards-container {
     width: 100%;
     margin: auto;
-    
   }
   .enroll-now-btn-2 {
     justify-content: center;

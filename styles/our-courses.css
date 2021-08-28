@@ -197,7 +197,6 @@ nav {
   color: #000000;
 }
 .overview-card-image {
-  align-self: left;
   width: 40%;
 }
 .enroll-now-btn {
@@ -277,6 +276,7 @@ nav {
   align-content: center;
   margin-top: 1.2em;
   margin-bottom: 4em;
+  margin-left: 15em;
 }
 .mini-message-conversation-courses {
   font-family: Poppins;

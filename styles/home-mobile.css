@@ -39,15 +39,6 @@
     right: 0;
   }
 
-  /* .img_hero {
-    width: auto;
-    object-fit: contain;
-    position: absolute !important;
-    right: 0%;
-    margin: auto;
-    align-self: center;
-  } */
-
   .img_hero {
     width: 80%;
     height: auto;
@@ -55,23 +46,19 @@
     object-fit: contain;
     margin: auto;
     align-self: left;
-    /* border: solid green 4px; */
   }
 
   .content {
     position: static;
-    /* border: solid black 4px; */
-    /* margin-top: 8em; */
     z-index: unset;
   }
 
   .message {
-    /* margin-top: 12em; */
     width: 90vw;
     font-family: Poppins;
     font-size: 0.9em;
     line-height: normal;
-    text-align: justify;
+    text-align: center;
     position: relative;
   }
 
@@ -136,7 +123,6 @@
     display: flex !important;
     flex-direction: row;
     display: inline;
-    
   }
   .standard-courses-title-set,
   .refresher-courses-title-set,
