@@ -155,11 +155,33 @@
     width: 100%;
     margin: auto;
   }
+  .learn-more-standard-courses {
+    width: 70vw;
+    padding: 1em;
+    padding-left: 3em;
+    padding-right: 3em;
+    border-radius: 2em;
+    background-color: #000421;
+    font-family: Kanit;
+    font-size: 0.45em;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 0.57px;
+    text-align: center;
+  }
   .enroll-now-btn-2 {
+    display: flex;
     justify-content: center;
     align-content: center;
-    margin-left: 4em;
-    width: 50vw;
+    width: 90vw;
+  }
+  .enroll-now-btn-3 {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    width: 90vw;
   }
   .conversation-courses-container {
     display: flex;

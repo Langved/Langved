@@ -74,7 +74,7 @@ footer {
   align-items: flex-start;
   padding: 0.75em;
   margin: 0.75em;
-  /* width: fit-content; */
+  width: 15vw;
 }
 
 .quick-links > a,
@@ -120,10 +120,9 @@ footer {
   display: none;
 }
 
-.developers > a
-{
-    color:#e6ffff;
-    text-decoration: underline;
+.developers > a {
+  color: #e6ffff;
+  text-decoration: underline;
 }
 
 @media screen and (max-width: 480px) {
