@@ -115,7 +115,10 @@ body {
   font-stretch: normal;
   font-style: normal;
 }
-
+.diwali-anka {
+  margin: auto;
+  padding: 1em;
+}
 .row-1,
 .row-2 {
   display: flex;
@@ -453,8 +456,8 @@ body {
 }
 .medium-message-our-upcomers,
 .medium-message-events-and-activities {
-  padding-bottom: 3em;
-  margin: 2em;
+  padding-bottom: 2em;
+  margin: 1em;
   font-family: Poppins;
   font-size: 0.55em;
   font-weight: 500;
@@ -489,7 +492,15 @@ body {
   font-family: Kanit;
   width: auto;
 }
-
+.diwali-anka-container{
+  display: flex;
+  flex-direction: column;
+  width: 85%;
+  justify-content: center;
+  text-align: center;
+  margin: auto;
+  font-family: Kanit;
+}
 .technical-translations,
 .lang-travels,
 .literature-project {

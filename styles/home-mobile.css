@@ -66,6 +66,20 @@
     flex-direction: row;
     flex-wrap: wrap;
   }
+  .diwali-anka {
+    margin: 0.75em;
+    padding: 0.75em;
+    cursor: pointer;
+    z-index: 1;
+    font-family: Kanit;
+    font-size: 0.75em;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    align-self: center;
+    color: #e8ffff;
+  }
   .row-1,
   .row-2 {
     display: flex;
